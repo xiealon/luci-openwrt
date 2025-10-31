@@ -25,7 +25,7 @@ var CBILogreadBox = function(logtag, name) {
 		logTextFilter: '',
 		invertLogTextSearch: false,
 		logTagFilter: logtag ? logtag : '',
-		logName: name ? name : _('System'),
+		logName: name ? name : _('System Log'),
 		fetchMaxRows: 1000,
 
 		facilities: [
@@ -73,12 +73,12 @@ var CBILogreadBox = function(logtag, name) {
 			try {
 				const tz = uci.get('system', '@system[0]', 'zonename')?.replaceAll(' ', '_');
 				const ts = uci.get('system', '@system[0]', 'clock_timestyle') || 0;
-				const hc = uci.get('system', '@system[0]', 'clock_hourcycle') || 'h23';
+				const hc = uci.get('system', '@system[0]', 'clock_hourcycle') || 0;
 				const logEntries = await callLogRead(this.fetchMaxRows, false, true);
 				const dateObj = new Intl.DateTimeFormat(undefined, {
 						dateStyle: 'medium',
 						timeStyle: (ts == 0) ? 'long' : 'full',
-						hourCycle: hc,
+						hourCycle: (hc == 0) ? undefined : hc,
 						timeZone: tz
 				});
 
@@ -233,7 +233,7 @@ var CBILogreadBox = function(logtag, name) {
 			filterMaxRows.addEventListener('change', handleLogFilterChange);
 
 			return E([], [
-				E('h2', {}, [ `${this.logName} ${_('Log')}` ]),
+				E('h2', {}, [ this.logName ]),
 				E('div', { 'id': 'content_syslog' }, [
 					E('div', { class: 'cbi-section-descr' }, this.logTagFilter ? _('The syslog output, pre-filtered for messages related to: ' + this.logTagFilter) : '') ,
 					E('div', { 'style': 'margin-bottom:10px' }, [

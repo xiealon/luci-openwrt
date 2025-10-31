@@ -668,7 +668,7 @@ return view.extend({
 					ss.anonymous = true;
 
 					ss.tab('general',  _('General Setup'));
-					ss.tab('advanced', _('Advanced Settings'));
+					ss.tab('ipv4', _('IPv4 Settings'));
 					ss.tab('ipv6', _('IPv6 Settings'));
 					ss.tab('ipv6-ra', _('IPv6 RA Settings'));
 
@@ -691,8 +691,8 @@ return view.extend({
 											uci.set('dhcp', section_id, 'start', 100);
 											uci.set('dhcp', section_id, 'limit', 150);
 											uci.set('dhcp', section_id, 'leasetime', '12h');
-										}
-										else {
+											uci.set('dhcp', section_id, 'dhcpv4', 'server');
+										} else {
 											uci.set('dhcp', section_id, 'ignore', 1);
 										}
 									});
@@ -701,18 +701,14 @@ return view.extend({
 						]);
 					};
 
-					ss.taboption('general', form.Flag, 'ignore', _('Ignore interface'), _('Disable <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> for this interface.'));
+					if (L.hasSystemFeature('dnsmasq')) {
+						ss.taboption('general', form.Flag, 'ignore', _('Ignore interface'),
+							     _('Disable <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> for this interface (dnsmasq only).'));
+					}
 
 					if (protoval == 'static') {
-						so = ss.taboption('general', form.Value, 'start', _('Start', 'DHCP IP range start address'), _('Lowest leased address as offset from the network address.'));
-						so.optional = true;
-						so.datatype = 'or(uinteger,ip4addr("nomask"))';
-						so.default = '100';
-
-						so = ss.taboption('general', form.Value, 'limit', _('Limit'), _('Maximum number of leased addresses.'));
-						so.optional = true;
-						so.datatype = 'uinteger';
-						so.default = '150';
+						so = ss.taboption('general', form.Flag, 'dynamicdhcp', _('Dynamic <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>'), _('Dynamically allocate DHCP addresses for clients. If disabled, only clients having static leases will be served.'));
+						so.default = so.enabled;
 
 						so = ss.taboption('general', form.Value, 'leasetime', _('Lease time'), _('Expiry time of leased addresses, minimum is 2 minutes (<code>2m</code>).'));
 						so.optional = true;
@@ -729,31 +725,55 @@ return view.extend({
 							return _("Invalid DHCP lease time format. Use integer values optionally followed by s, m, h, d, or w.");
 						}
 
-						so = ss.taboption('advanced', form.Flag, 'dynamicdhcp', _('Dynamic <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>'), _('Dynamically allocate DHCP addresses for clients. If disabled, only clients having static leases will be served.'));
-						so.default = so.enabled;
+						if (L.hasSystemFeature('dnsmasq')) {
+							ss.taboption('general', form.Flag, 'force', _('Force'),
+								_('Force DHCP on this network even if another server is detected (dnsmasq only).'));
+						}
 
-						ss.taboption('advanced', form.Flag, 'force', _('Force'), _('Force DHCP on this network even if another server is detected.'));
+						if (L.hasSystemFeature('dnsmasq')) {
+							ss.taboption('general', form.DynamicList, 'dhcp_option', _('DHCP-Options'),
+								_('Define additional DHCP options,  for example "<code>6,192.168.2.1,192.168.2.2</code>" which advertises different DNS servers to clients (dnsmasq only).'));
 
-						// XXX: is this actually useful?
-						//ss.taboption('advanced', form.Value, 'name', _('Name'), _('Define a name for this network.'));
+							ss.taboption('general', form.DynamicList, 'dhcp_option_force', _('Force DHCP-Options'),
+								_('As DHCP-Options; send unsolicited (dnsmasq only).'));
+						}
 
-						so = ss.taboption('advanced', form.Value, 'netmask', _('<abbr title="Internet Protocol Version 4">IPv4</abbr>-Netmask'), _('Override the netmask sent to clients. Normally it is calculated from the subnet that is served.'));
+						if (L.hasSystemFeature('odhcpd', 'dhcpv4')) {
+							so = ss.taboption('ipv4', form.RichListValue, 'dhcpv4', _('DHCPv4 Service'),
+									  _('Enable or disable DHCPv4 services on this interface (odhcpd only).'));
+							so.optional = true;
+							so.value('', _('disabled'),
+								 _('Do not provide DHCPv4 services on this interface.'));
+							so.value('server', _('enabled'),
+								 _('Provide DHCPv4 services on this interface.'));
+						}
+
+						so = ss.taboption('ipv4', form.Value, 'start', _('Start', 'DHCP IP range start address'), _('Lowest leased address as offset from the network address.'));
 						so.optional = true;
-						so.datatype = 'ip4addr';
+						so.datatype = 'or(uinteger,ip4addr("nomask"))';
+						so.default = '100';
 
-						so.render = function(option_index, section_id, in_table) {
-							this.placeholder = get_netmask(s, true);
-							return form.Value.prototype.render.apply(this, [ option_index, section_id, in_table ]);
-						};
+						so = ss.taboption('ipv4', form.Value, 'limit', _('Limit'), _('Maximum number of leased addresses.'));
+						so.optional = true;
+						so.datatype = 'uinteger';
+						so.default = '150';
 
-						so.validate = function(section_id, value) {
-							var uielem = this.getUIElement(section_id);
-							if (uielem)
-								uielem.setPlaceholder(get_netmask(s, false));
-							return form.Value.prototype.validate.apply(this, [ section_id, value ]);
-						};
-
-						ss.taboption('advanced', form.DynamicList, 'dhcp_option', _('DHCP-Options'), _('Define additional DHCP options,  for example "<code>6,192.168.2.1,192.168.2.2</code>" which advertises different DNS servers to clients.'));
+						if (L.hasSystemFeature('dnsmasq')) {
+							so = ss.taboption('ipv4', form.Value, 'netmask', _('<abbr title="Internet Protocol Version 4">IPv4</abbr>-Netmask'),
+								_('Override the netmask sent to clients. Normally it is calculated from the subnet that is served (dnsmasq only).'));
+							so.optional = true;
+							so.datatype = 'ip4addr';
+							so.render = function(option_index, section_id, in_table) {
+								this.placeholder = get_netmask(s, true);
+								return form.Value.prototype.render.apply(this, [ option_index, section_id, in_table ]);
+							};
+							so.validate = function(section_id, value) {
+								var uielem = this.getUIElement(section_id);
+								if (uielem)
+									uielem.setPlaceholder(get_netmask(s, false));
+								return form.Value.prototype.validate.apply(this, [ section_id, value ]);
+							};
+						}
 					}
 
 
@@ -975,6 +995,27 @@ return view.extend({
 						}, this));
 					};
 
+					so = ss.taboption('ipv6-ra', form.Value, 'max_preferred_lifetime', _('IPv6 Preferred Prefix Lifetime'), _('Maximum preferred lifetime for a prefix.'));
+					so.optional = true;
+					so.placeholder = '45m';
+					so.value('5m', _('5m (5 minutes)'));
+					so.value('45m', _('45m (45 minutes - default)'));
+					so.value('3h', _('3h (3 hours)'));
+					so.value('12h', _('12h (12 hours)'));
+					so.value('7d', _('7d (7 days)'));
+					so.depends('ra', 'server');
+					so.depends({ ra: 'hybrid', master: '0' });
+
+					so = ss.taboption('ipv6-ra', form.Value, 'max_valid_lifetime', _('IPv6 Valid Prefix Lifetime'), _('Maximum valid lifetime for a prefix.'));
+					so.optional = true;
+					so.placeholder = '90m';
+					so.value('5m', _('5m (5 minutes)'));
+					so.value('90m', _('90m (90 minutes - default)'));
+					so.value('3h', _('3h (3 hours)'));
+					so.value('12h', _('12h (12 hours)'));
+					so.value('7d', _('7d (7 days)'));
+					so.depends('ra', 'server');
+					so.depends({ ra: 'hybrid', master: '0' });
 
 					so = ss.taboption('ipv6', form.RichListValue, 'dhcpv6', _('DHCPv6-Service'),
 						_('Configures the operation mode of the DHCPv6 service on this interface.'));
@@ -992,9 +1033,12 @@ return view.extend({
 					so.datatype = 'range(1,62)';
 					so.depends('dhcpv6', 'server');
 
-					so = ss.taboption('ipv6', form.DynamicList, 'dns', _('Announce IPv6 DNS servers'),
-						_('Specifies a fixed list of IPv6 DNS server addresses to announce via DHCPv6. If left unspecified, the device will announce itself as IPv6 DNS server unless the <em>Local IPv6 DNS server</em> option is disabled.'));
-					so.datatype = 'ip6addr("nomask")'; /* restrict to IPv6 only for now since dnsmasq (DHCPv4) does not honour this option */
+					/* This option is used by odhcpd. It can take IPv4/6 entries, although IPv4 DNS servers don't
+					always make sense in an IPv6 environment, they might in a dual stack environment. */
+					so = ss.taboption('ipv6', form.DynamicList, 'dns', _('Announce IPv4/6 DNS servers'),
+						_('Specifies a fixed list of DNS server addresses to announce via DHCPv6.') + '<br/>' +
+						_('If left unspecified, the device will announce itself as DNS server unless the <em>Local IPv6 DNS server</em> option is disabled.'));
+					so.datatype = 'ipaddr("nomask")';
 					so.depends('ra', 'server');
 					so.depends({ ra: 'hybrid', master: '0' });
 					so.depends('dhcpv6', 'server');
@@ -1023,7 +1067,7 @@ return view.extend({
 					so.depends({ dhcpv6: 'hybrid', master: '0' });
 
 					so = ss.taboption('ipv6', form.DynamicList, 'domain', _('Announce DNS domains'),
-						_('Specifies a fixed list of DNS search domains to announce via DHCPv6. If left unspecified, the local device DNS search domain will be announced.'));
+						_('Specifies a fixed list of DNS search domains to announce via DHCPv6.'));
 					so.datatype = 'hostname';
 					so.depends('ra', 'server');
 					so.depends({ ra: 'hybrid', master: '0' });
@@ -1074,24 +1118,6 @@ return view.extend({
 					so = ss.taboption('ipv6', form.Flag, 'ndproxy_slave', _('NDP-Proxy slave'), _('Set interface as NDP-Proxy external slave. Default is off.'));
 					so.depends({ ndp: 'relay', master: '0' });
 					so.depends({ ndp: 'hybrid', master: '0' });
-
-					so = ss.taboption('ipv6', form.Value, 'max_preferred_lifetime', _('IPv6 Preferred Prefix Lifetime'), _('Maximum preferred lifetime for a prefix.'));
-					so.optional = true;
-					so.placeholder = '45m';
-					so.value('5m', _('5m (5 minutes)'));
-					so.value('45m', _('45m (45 minutes - default)'));
-					so.value('3h', _('3h (3 hours)'));
-					so.value('12h', _('12h (12 hours)'));
-					so.value('7d', _('7d (7 days)'));
-
-					so = ss.taboption('ipv6', form.Value, 'max_valid_lifetime', _('IPv6 Valid Prefix Lifetime'), _('Maximum valid lifetime for a prefix.'));
-					so.optional = true;
-					so.placeholder = '90m';
-					so.value('5m', _('5m (5 minutes)'));
-					so.value('90m', _('90m (90 minutes - default)'));
-					so.value('3h', _('3h (3 hours)'));
-					so.value('12h', _('12h (12 hours)'));
-					so.value('7d', _('7d (7 days)'));
 				}
 
 				ifc.renderFormOptions(s);
@@ -1109,11 +1135,6 @@ return view.extend({
 				if (has_peerdns(protoval))
 					o.depends('peerdns', '0');
 				o.datatype = 'ipaddr';
-
-				o = nettools.replaceOption(s, 'advanced', form.DynamicList, 'dns_search', _('DNS search domains'));
-				if (protoval != 'static')
-					o.depends('peerdns', '0');
-				o.datatype = 'hostname';
 
 				o = nettools.replaceOption(s, 'advanced', form.Value, 'dns_metric', _('DNS weight'), _('The DNS server entries in the local resolv.conf are primarily sorted by the weight specified here'));
 				o.datatype = 'uinteger';
