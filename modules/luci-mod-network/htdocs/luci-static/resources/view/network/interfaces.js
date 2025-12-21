@@ -889,6 +889,14 @@ return view.extend({
 					so.depends('ra', 'server');
 					so.depends({ ra: 'hybrid', master: '0' });
 
+					so = ss.taboption('ipv6-ra', form.ListValue, 'ra_preference', _('Router Priority'),
+						_('A tie-breaker for clients and their routes when multiple routers exist on the same network.'));
+					so.default = 'medium';
+					so.value('low', _('Low'));
+					so.value('medium', _('Medium'));
+					so.value('high', _('High'));
+					so.depends('ra', 'server');
+
 					so = ss.taboption('ipv6-ra', form.RichListValue, 'ra_flags', _('<abbr title="Router Advertisement">RA</abbr> Flags'),
 						_('Specifies the flags sent in <abbr title="Router Advertisement">RA</abbr> messages, for example to instruct clients to request further information via stateful DHCPv6.'));
 					so.optional = true;
@@ -1037,7 +1045,8 @@ return view.extend({
 
 					so = ss.taboption('ipv6', form.Value, 'dhcpv6_pd_min_len', _('<abbr title="Prefix Delegation">PD</abbr> minimum length'),
 						_('Configures the minimum delegated prefix length assigned to a requesting downstream router, potentially overriding a requested prefix length. If left unspecified, the device will assign the smallest available prefix greater than or equal to the requested prefix.'));
-					so.datatype = 'range(1,62)';
+					so.placeholder = '62';
+					so.datatype = 'range(1,64)';
 					so.depends('dhcpv6', 'server');
 
 					/* This option is used by odhcpd. It can take IPv4/6 entries, although IPv4 DNS servers don't
