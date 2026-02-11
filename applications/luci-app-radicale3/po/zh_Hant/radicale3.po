@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
 "Project-Id-Version: luci-app-radicale 3\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-09 03:21+0000\n"
+"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/openwrt/luciapplicationsradicale3/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:288
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:298
@@ -29,7 +33,7 @@ msgstr ""
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:377
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:465
 msgid "Advanced"
-msgstr ""
+msgstr "進階"
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:117
 msgid "Allowed Ciphers"
@@ -126,7 +130,7 @@ msgstr ""
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:166
 msgid "Encryption"
-msgstr ""
+msgstr "加密"
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:218
 msgid "Encryption method when changing this password"
@@ -134,7 +138,7 @@ msgstr ""
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:459
 msgid "Error"
-msgstr ""
+msgstr "錯誤"
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:394
 msgid "Example storage hook"
@@ -194,11 +198,11 @@ msgstr ""
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:457
 msgid "Info"
-msgstr ""
+msgstr "資訊"
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:453
 msgid "Log Level"
-msgstr ""
+msgstr "日誌等級"
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:448
 msgid "Logging"
@@ -214,7 +218,7 @@ msgstr ""
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:371
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:451
 msgid "Main"
-msgstr ""
+msgstr "主要"
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:472
 msgid "Mask Passwords"
@@ -386,7 +390,7 @@ msgstr ""
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:79
 msgid "Server Settings"
-msgstr ""
+msgstr "伺服器設定"
 
 #: applications/luci-app-radicale3/htdocs/luci-static/resources/view/radicale3.js:143
 msgid "Socket timeout (seconds)"

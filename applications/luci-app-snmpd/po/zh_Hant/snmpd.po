@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-06-18 15:02+0000\n"
+"PO-Revision-Date: 2026-02-09 03:20+0000\n"
 "Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationssnmpd/zh_Hant/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:260
 msgid "A group maps com2sec names to access names"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:479
 msgid "AES"
-msgstr ""
+msgstr "AES"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:366
 msgid "Access Control"
@@ -30,11 +30,11 @@ msgstr ""
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/download.js:61
 msgid "Actions"
-msgstr ""
+msgstr "動作"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:634
 msgid "Advanced Settings"
-msgstr ""
+msgstr "進階設定"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:150
 msgid "AgentX socket path"
@@ -107,10 +107,10 @@ msgstr ""
 msgid "DES"
 msgstr ""
 
-#: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/download.js:73
+#: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/download.js:72
 #: applications/luci-app-snmpd/root/usr/share/luci/menu.d/luci-app-snmpd.json:28
 msgid "Download"
-msgstr ""
+msgstr "下載"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/download.js:65
 msgid "Download Area"
@@ -138,7 +138,7 @@ msgstr ""
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:320
 msgid "Exact"
-msgstr ""
+msgstr "精確"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:630
 msgid "General"
@@ -151,7 +151,7 @@ msgstr "授予luci-app-snmpd存取UCI的權限"
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:259
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:289
 msgid "Group"
-msgstr ""
+msgstr "群組"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:563
 msgid "Here you can configure Logging settings"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:63
 msgid "IPv4 and IPv6"
-msgstr ""
+msgstr "IPv4 和 IPv6"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:309
 msgid "Level"
@@ -219,12 +219,12 @@ msgstr ""
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:203
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:410
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:496
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:311
 msgid "No authentication"
@@ -234,7 +234,7 @@ msgstr ""
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:338
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:347
 msgid "None"
-msgstr ""
+msgstr "無"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:344
 msgid "Notify"
@@ -287,7 +287,7 @@ msgstr ""
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:321
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:400
 msgid "Prefix"
-msgstr ""
+msgstr "前綴"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:584
 msgid "Priority for file logging"
@@ -474,7 +474,7 @@ msgstr ""
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:264
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:298
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:585
 msgid "Will log messages of selected priority and above."
@@ -491,7 +491,7 @@ msgstr ""
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:411
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:497
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:390
 msgid "any (default)"

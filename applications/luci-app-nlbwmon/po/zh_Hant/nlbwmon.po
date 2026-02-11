@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-18 15:02+0000\n"
+"PO-Revision-Date: 2026-02-08 18:12+0000\n"
 "Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsnlbwmon/zh_Hant/>\n"
@@ -11,111 +11,111 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:563
 msgid "%d IPv4-only hosts"
-msgstr "%d 台主機（僅 IPv4）"
+msgstr "%d 台僅 IPv4 的主機"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:570
 msgid "%d IPv6-only hosts"
-msgstr "%d 台主機（僅 IPv6）"
+msgstr "%d 台僅 IPv6 的主機"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:577
 msgid "%d dual-stack hosts"
-msgstr "%d 台主機（雙堆疊）"
+msgstr "%d 台雙堆疊主機"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:114
 msgid "%s and %s"
-msgstr "1.%s 2.%s"
+msgstr "%s 和 %s"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:112
 msgid "%s, %s and %s"
-msgstr "1.%s 2.%s 3.%s"
+msgstr "%s、%s 和 %s"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:93
 msgid "-1 - Restart every last day of month"
-msgstr "-1－每月的最後一天重新啟動"
+msgstr "-1 - 每月的最後一天重新啟動"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:94
 msgid "-7 - Restart a week before end of month"
-msgstr "-7－每月倒數第七天重新啟動"
+msgstr "-7 - 每月倒數第七天重新啟動"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:92
 msgid "1 - Restart every 1st of month"
-msgstr "1－每月的第一天重新啟動"
+msgstr "1 - 每月的第一天重新啟動"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:162
 msgid "10m - frequent commits at the expense of flash wear"
-msgstr "10m－頻繁地提交，可能會加劇快閃記憶體的耗損"
+msgstr "10m - 頻繁地提交會加劇快閃記憶體的磨損"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:161
 msgid "12h - compromise between risk of data loss and flash wear"
-msgstr "12h－資料丟失風險和快閃記憶體耗損之間的折衷"
+msgstr "12h - 資料丟失風險和快閃記憶體耗損之間的折衷"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:160
 msgid "24h - least flash wear at the expense of data loss risk"
-msgstr "24h－以資料丟失風險為代價延長快閃記憶體壽命"
+msgstr "24h - 以資料丟失風險為代價延長快閃記憶體壽命"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:167
 msgid "30s - refresh twice per minute for reasonably current stats"
-msgstr "30s－每分鐘重新整理 2 次來得到最新的統計資料"
+msgstr "30s - 每分鐘重新整理 2 次來得到最新統計資料"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:168
 msgid "5m - rarely refresh to avoid frequently clearing conntrack counters"
-msgstr "5m－少量重新整理以避免頻繁清除 conntrack 計數器"
+msgstr "5m - 少量重新整理以避免頻繁清除 conntrack 計數器"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:163
 msgid "60s - commit minutely, useful for non-flash storage"
-msgstr "60s－每分鐘提交，適用於非快閃記憶體儲存資料"
+msgstr "60s - 每分鐘提交，適用於非快閃記憶體儲存資料"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:852
 msgid "<big id=\"conn-total\">0</big> connections"
-msgstr "連線數：<big id=\"conn-total\">0</big>"
+msgstr "連線數: <big id=\"conn-total\">0</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:849
 msgid "<big id=\"host-total\">0</big> hosts"
-msgstr "主機數：<big id=\"host-total\">0</big>"
+msgstr "主機數: <big id=\"host-total\">0</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:942
 msgid "<big id=\"ipv6-hosts\">0%</big> IPv6 support rate among hosts"
-msgstr "支援 IPv6 主機的比率：<big id=\"ipv6-hosts\">0%</big>"
+msgstr "支援 IPv6 主機的比率: <big id=\"ipv6-hosts\">0%</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:944
 msgid "<big id=\"ipv6-rx\">0B</big> total IPv6 download"
-msgstr "IPv6 總下載量：<big id=\"ipv6-rx\">0B</big>"
+msgstr "IPv6 總下載量: <big id=\"ipv6-rx\">0B</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:943
 msgid "<big id=\"ipv6-share\">0%</big> of the total traffic is IPv6"
-msgstr "IPv6 總流量比率：<big id=\"ipv6-share\">0%</big>"
+msgstr "IPv6 總流量比率: <big id=\"ipv6-share\">0%</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:945
 msgid "<big id=\"ipv6-tx\">0B</big> total IPv6 upload"
-msgstr "IPv6 總上傳量：<big id=\"ipv6-tx\">0B</big>"
+msgstr "IPv6 總上傳量: <big id=\"ipv6-tx\">0B</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:899
 msgid "<big id=\"layer7-most-conn\">0</big> cause the most connections"
-msgstr "連線數最多的協定：<big id=\"layer7-most-conn\">0</big>"
+msgstr "連線數最多的協定: <big id=\"layer7-most-conn\">0</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:897
 msgid "<big id=\"layer7-most-rx\">0</big> cause the most download"
-msgstr "下載量最大的協定：<big id=\"layer7-most-rx\">0</big>"
+msgstr "下載量最大的協定: <big id=\"layer7-most-rx\">0</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:898
 msgid "<big id=\"layer7-most-tx\">0</big> cause the most upload"
-msgstr "上傳量最大的協定：<big id=\"layer7-most-tx\">0</big>"
+msgstr "上傳量最大的協定: <big id=\"layer7-most-tx\">0</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:896
 msgid "<big id=\"layer7-total\">0</big> different application protocols"
-msgstr "應用層協定數：<big id=\"layer7-total\">0</big>"
+msgstr "應用層協定數: <big id=\"layer7-total\">0</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:850
 msgid "<big id=\"rx-total\">0</big> download"
-msgstr "下載量：<big id=\"rx-total\">0</big>"
+msgstr "下載量: <big id=\"rx-total\">0</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:851
 msgid "<big id=\"tx-total\">0</big> upload"
-msgstr "上傳量：<big id=\"tx-total\">0</big>"
+msgstr "上傳量: <big id=\"tx-total\">0</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:63
 msgid "Accounting period"
@@ -127,7 +127,7 @@ msgstr "進階設定"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:906
 msgid "Application"
-msgstr "應用層協定"
+msgstr "應用程式"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:882
 msgid "Application Protocols"
@@ -146,8 +146,8 @@ msgid ""
 "Changing the accounting interval type will invalidate existing databases!"
 "<br /><strong><a href=\"%s\">Download backup</a></strong>."
 msgstr ""
-"如果變更「統計週期」的型式，現存資料庫將無效！<br /><strong><a href=\"%s\">下"
-"載備份</a></strong>。"
+"如果變更 \"統計週期\" 的型式，現存資料庫將無效！<br /><strong><a href=\"%s\">"
+"下載備份</a></strong>。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:64
 msgid ""
@@ -155,8 +155,8 @@ msgid ""
 "specific date, e.g. every 3rd. Choose \"Fixed interval\" to restart the "
 "accounting period exactly every N days, beginning at a given date."
 msgstr ""
-"選擇「一個月中的某天」來設定每月統計資料的重設日期（例如：每月 3 號）；選擇"
-"「固定間隔時間」將容許您設定起始日期和間隔時間。"
+"選擇 \"一個月中的某天\" 來設定每月統計資料的重設日期 (例如: 每月 3 號) ；選"
+"擇 \"固定間隔時間\" 將容許您設定起始日期和間隔時間。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:869
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:915
@@ -174,7 +174,7 @@ msgstr "壓縮資料庫"
 
 #: applications/luci-app-nlbwmon/root/usr/share/luci/menu.d/luci-app-nlbwmon.json:25
 msgid "Configuration"
-msgstr "設定"
+msgstr "配置"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:628
 msgid "Conn."
@@ -187,7 +187,7 @@ msgstr "連線數"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:843
 msgid "Connections / Host"
-msgstr "連線數／主機"
+msgstr "連線數 / 主機"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:170
 msgid "Database directory"
@@ -209,8 +209,8 @@ msgid ""
 "towards the end of month, e.g. \"-5\" to specify the 27th of July or the "
 "24th of February."
 msgstr ""
-"每月重設統計資料的日期；使用負數來表示朝月末方向計數（例如：「-5」表示7月27號"
-"或者2月24號）。"
+"每月重設統計資料的日期；使用負數來表示朝月末方向計數 (例如: \"-5\" 表示 7 月 "
+"27 號或者 2 月 24 號) 。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:24
 msgid "Dismiss"
@@ -222,11 +222,11 @@ msgstr "顯示"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:629
 msgid "Down. (Bytes)"
-msgstr "下載量（位元組）"
+msgstr "下載量 (位元組)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:630
 msgid "Down. (Pkts.)"
-msgstr "下載量（封包）"
+msgstr "下載量 (封包)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:611
 msgctxt "Traffic counter"
@@ -237,17 +237,17 @@ msgstr "下載"
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:908
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:955
 msgid "Download (Bytes)"
-msgstr "下載量（位元組）"
+msgstr "下載量 (位元組)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:863
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:909
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:956
 msgid "Download (Packets)"
-msgstr "下載量（封包）"
+msgstr "下載量 (封包)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:885
 msgid "Download / Application"
-msgstr "下載量／協定"
+msgstr "下載量 / 協定"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:59
 msgid "Download Database Backup"
@@ -275,19 +275,19 @@ msgstr "匯出"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:804
 msgid "Failed to commit database: %s"
-msgstr "資料庫提交失敗（訊息：%s）"
+msgstr "資料庫提交失敗 (訊息: %s)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:45
 msgid "Failed to download backup archive: %s"
-msgstr "備份歸檔下載失敗（訊息：%s）"
+msgstr "備份存檔下載失敗 (訊息: %s)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:793
 msgid "Failed to download traffic data: %s"
-msgstr "流量資料下載失敗（訊息：%s）"
+msgstr "流量資料下載失敗 (訊息: %s)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:28
 msgid "Failed to restore backup archive: %s"
-msgstr "備份歸檔還原失敗（訊息：%s）"
+msgstr "備份存檔還原失敗 (訊息: %s)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:954
 msgid "Family"
@@ -301,7 +301,7 @@ msgstr "固定間隔時間"
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:923
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:970
 msgid "Force reload…"
-msgstr "強制重新載入……"
+msgstr "強制重新載入…"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:59
 msgid "General Settings"
@@ -313,7 +313,7 @@ msgstr "產生備份"
 
 #: applications/luci-app-nlbwmon/root/usr/share/rpcd/acl.d/luci-app-nlbwmon.json:3
 msgid "Grant UCI access for luci-app-nlbwmon"
-msgstr "授予luci-app-nlbwmon存取UCI的權限"
+msgstr "授予 luci-app-nlbwmon 存取 UCI 的權限"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:987
 msgid "Grouped by IP (CSV)"
@@ -334,7 +334,7 @@ msgstr "主機"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:620
 msgid "Hostname: <big id=\"bubble-hostname\">example.org</big>"
-msgstr "主機名：<big id=\"bubble-hostname\">example.org</big>"
+msgstr "主機名: <big id=\"bubble-hostname\">example.org</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:507
 msgid "IPv4"
@@ -342,7 +342,7 @@ msgstr "IPv4"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:931
 msgid "IPv4 vs. IPv6"
-msgstr "IPv4 與 IPv6"
+msgstr "IPv4 vs. IPv6"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:508
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:928
@@ -363,7 +363,7 @@ msgstr "將記憶體中的臨時資料庫提交到永續性資料庫目錄的間
 msgid ""
 "Interval at which traffic counters of still established connections are "
 "refreshed from netlink information."
-msgstr "Netlink 頻寬監視器重新整理「已建立連線的總流量」的間隔時間。"
+msgstr "Netlink 頻寬監視器重新整理 \"已建立連線的總流量\" 的間隔時間。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:112
 msgid "Length of accounting interval in days."
@@ -375,7 +375,7 @@ msgstr "局部介面"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:132
 msgid "Local subnets"
-msgstr "區域子網"
+msgstr "本地子網"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:860
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:953
@@ -394,7 +394,7 @@ msgstr "最大項目數"
 msgid ""
 "Maximum number of accounting periods to keep, use zero to keep databases "
 "forever."
-msgstr "資料庫中要保留的統計資料的「最大週期數」，輸入「0」將永遠保留。"
+msgstr "資料庫中要保留的統計資料的 \"最大週期數\" ，輸入 \"0\" 將永遠保留。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:831
 msgid "Netlink Bandwidth Monitor"
@@ -402,11 +402,11 @@ msgstr "Netlink 頻寬監視器"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:51
 msgid "Netlink Bandwidth Monitor - Backup / Restore"
-msgstr "Netlink 頻寬監視器－備份／還原"
+msgstr "Netlink 頻寬監視器 - 備份 / 還原"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:52
 msgid "Netlink Bandwidth Monitor - Configuration"
-msgstr "Netlink 頻寬監視器－設定"
+msgstr "Netlink 頻寬監視器 - 設定"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:362
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:416
@@ -416,15 +416,15 @@ msgstr "暫無資料記錄。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:124
 msgid "Only conntrack streams from or to any of these networks are counted."
-msgstr "只統計來自或任何到達「這些網路」的 conntrack 流。"
+msgstr "只統計來自或任何到達 \"這些網路\" 的 conntrack 串流。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:133
 msgid "Only conntrack streams from or to any of these subnets are counted."
-msgstr "只統計來自或任何到達「這些子網」的 conntrack 流。"
+msgstr "只統計來自或任何到達 \"這些子網\" 的 conntrack 串流。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:147
 msgid "Preallocate database"
-msgstr "預先配置資料庫"
+msgstr "預先分配資料庫"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:339
 msgid "Protocol"
@@ -440,8 +440,8 @@ msgid ""
 "line. The first value specifies the IP protocol, the second value the port "
 "number and the third column is the name of the mapped protocol."
 msgstr ""
-"使用協定對映來區分流量類型，每行一條：第一個值規定「IP 協定號」，第二、三個值"
-"分別為「埠號」和對映的「協定名稱」。"
+"使用協定對映來區分流量類型，每行一條: 第一個值規定 \"IP 協定\" ，第二、三個值"
+"分別為 \"連接埠\" 和對映的 \"協定名稱\"。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:165
 msgid "Refresh interval"
@@ -465,7 +465,7 @@ msgstr "還原完成"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:285
 msgid "Select accounting period:"
-msgstr "選擇統計週期："
+msgstr "選擇統計週期:"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:334
 msgid "Source IP"
@@ -477,7 +477,7 @@ msgstr "起始日期"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:97
 msgid "Start date of the first accounting period, e.g. begin of ISP contract."
-msgstr "第一個統計週期的起始日期（例如：ISP 合約的起始日期）。"
+msgstr "第一個統計週期的起始日期 (例如: ISP 合約的起始日期) 。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:155
 msgid "Stored periods"
@@ -488,12 +488,12 @@ msgid ""
 "The Netlink Bandwidth Monitor (nlbwmon) is a lightweight, efficient traffic "
 "accounting program keeping track of bandwidth usage per host and protocol."
 msgstr ""
-"Netlink 頻寬監視器（nlbwmon）是一個輕型、有效的流量統計程式，它可以追蹤每個主"
+"Netlink 頻寬監視器 (nlbwmon) 是一個輕型、有效的流量統計程式，它可以追蹤每個主"
 "機和協定的頻寬使用詳情。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:21
 msgid "The following database files have been restored:"
-msgstr "已還原以下資料庫檔案："
+msgstr "已還原以下資料庫檔案:"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:145
 msgid ""
@@ -503,7 +503,7 @@ msgstr "資料庫中儲存的最大項目數；設定限制為 \"0\" 將允許�
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:838
 msgid "Traffic / Host"
-msgstr "流量／主機"
+msgstr "流量 / 主機"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:835
 msgid "Traffic Distribution"
@@ -511,15 +511,15 @@ msgstr "流量分配"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:92
 msgid "Unable to fetch traffic statistic data: %s"
-msgstr "流量統計資料提取失敗（訊息：%s）"
+msgstr "流量統計資料提取失敗 (訊息: %s)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:631
 msgid "Up. (Bytes)"
-msgstr "上傳量（位元組）"
+msgstr "上傳量 (位元組)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:632
 msgid "Up. (Pkts.)"
-msgstr "上傳量（封包）"
+msgstr "上傳量 (封包)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:615
 msgctxt "Traffic counter"
@@ -530,21 +530,21 @@ msgstr "上傳"
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:910
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:957
 msgid "Upload (Bytes)"
-msgstr "上傳量（位元組）"
+msgstr "上傳量 (位元組)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:865
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:911
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:958
 msgid "Upload (Packets)"
-msgstr "上傳量（封包）"
+msgstr "上傳量 (封包)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:890
 msgid "Upload / Application"
-msgstr "上傳量／協定"
+msgstr "上傳量 / 協定"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:621
 msgid "Vendor: <big id=\"bubble-vendor\">Example Corp.</big>"
-msgstr "供應商：<big id=\"bubble-vendor\">Example Corp.</big>"
+msgstr "供應商: <big id=\"bubble-vendor\">Example Corp.</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:75
 msgid "Warning"
@@ -556,8 +556,8 @@ msgid ""
 "makes accessing old data slightly slower but helps to reduce storage "
 "requirements."
 msgstr ""
-"是否使用 Gzip 壓縮資料庫歸檔；這會使舊資料的存取稍微慢一些，但有助於節省儲存"
-"空間。"
+"是否使用 gzip 壓縮資料庫存檔；這會使舊資料的存取稍微慢一些但有助於節省儲存空"
+"間。"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:148
 msgid ""
