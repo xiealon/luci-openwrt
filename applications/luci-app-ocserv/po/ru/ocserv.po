@@ -1,7 +1,8 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-05 09:48+0000\n"
-"Last-Translator: Maksim <m4ksp86@ya.ru>\n"
+"PO-Revision-Date: 2026-02-20 11:50+0000\n"
+"Last-Translator: SnIPeRSnIPeR <snipersniper@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsocserv/ru/>\n"
 "Language: ru\n"
@@ -9,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:121
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:110
@@ -62,7 +63,7 @@ msgstr "Сбор данных..."
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:212
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:193
 msgid "Configuration has been applied."
-msgstr ""
+msgstr "Конфигурация применена."
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:126
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:138
@@ -83,7 +84,7 @@ msgstr "Устройство"
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:178
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/status/include/80_ocserv.js:148
 msgid "Disconnect"
-msgstr ""
+msgstr "Отключить"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:38
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:40
@@ -133,12 +134,12 @@ msgstr "Включить поддержку клиентов CISCO AnyConnect"
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:214
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:195
 msgid "Failed to apply configuration: %s"
-msgstr ""
+msgstr "Не удалось применить конфигурацию: %s"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:84
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/status/include/80_ocserv.js:97
 msgid "Failed to disconnect user: %s"
-msgstr ""
+msgstr "Не удалось отключить пользователя: %s"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:57
 msgid "Firewall Zone"
@@ -185,7 +186,7 @@ msgstr "Максимальное количество одинаковых кл�
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:102
 msgid "Name"
-msgstr "Имя"
+msgstr "Название"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:145
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:157
@@ -194,7 +195,7 @@ msgstr "Маска (или IPv6-префикс)"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:49
 msgid "Not available"
-msgstr ""
+msgstr "Недоступно"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:30
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:30
@@ -205,7 +206,7 @@ msgstr "VPN OpenConnect"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:109
 msgid "Password"
-msgstr "Парoль"
+msgstr "Пароль"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:61
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:63
@@ -234,7 +235,7 @@ msgstr ""
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:140
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:167
 msgid "Remote IP"
-msgstr ""
+msgstr "Удалённый IP"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:136
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:148
@@ -244,7 +245,7 @@ msgstr "Таблица маршрутизации"
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:146
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:173
 msgid "Rx"
-msgstr ""
+msgstr "Rx"
 
 #: applications/luci-app-ocserv/root/usr/share/luci/menu.d/luci-app-ocserv.json:17
 msgid "Server Settings"
@@ -350,7 +351,7 @@ msgstr "Время"
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:145
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:172
 msgid "Tx"
-msgstr ""
+msgstr "Tx"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/status/include/80_ocserv.js:113
 msgid "User"
@@ -359,7 +360,7 @@ msgstr "Пользователь"
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:80
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/status/include/80_ocserv.js:93
 msgid "User %s has been disconnected."
-msgstr ""
+msgstr "Пользователь %s отключён."
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:53
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:49
@@ -401,12 +402,12 @@ msgstr "IP Адрес VPN"
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:138
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:165
 msgid "VPN IPv4"
-msgstr ""
+msgstr "Адрес IPv4 VPN"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:139
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/users.js:166
 msgid "VPN IPv6"
-msgstr ""
+msgstr "Адрес IPv6 VPN"
 
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/main.js:165
 #: applications/luci-app-ocserv/htdocs/luci-static/resources/view/ocserv/user-config.js:127

@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-09 03:20+0000\n"
+"PO-Revision-Date: 2026-02-20 00:33+0000\n"
 "Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsaria2/zh_Hant/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:433
 msgid "<abbr title=\"Local Peer Discovery\">LPD</abbr> enabled"
@@ -112,7 +112,7 @@ msgstr "DHT 監聽連接埠"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:230
 msgid "Debug"
-msgstr "除錯"
+msgstr "偵錯"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:559
 msgid ""
@@ -455,7 +455,7 @@ msgid ""
 "RPC transport will be encrypted by SSL/TLS. The RPC clients must use https "
 "scheme to access the server. For WebSocket client, use wss scheme."
 msgstr ""
-"通過S SL/TLS 加密 RPC 傳輸。RPC 用戶端必須使用 HTTPS 存取伺服器。對於 "
+"通過 SSL/TLS 加密 RPC 傳輸。RPC 用戶端必須使用 HTTPS 存取伺服器。對於 "
 "WebSocket 用戶端使用 WSS。"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:262
@@ -464,7 +464,7 @@ msgstr "RPC 使用者名稱"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/log.js:62
 msgid "Refresh every %s seconds."
-msgstr "每 %s 秒重新整理。"
+msgstr "每 %s 秒刷新。"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:459
 msgid "Remove unselected file"
@@ -525,7 +525,7 @@ msgid ""
 "suffix \".torrent\"."
 msgstr ""
 "儲存元資料為 \".torrent\" 檔案。此選項僅在使用 BitTorrent 磁力連結時生效。檔"
-"案名稱 (包含字尾 \".torrent\") 為十六進位編碼的雜湊值。"
+"案名稱 (包含後綴 \".torrent\") 為十六進位編碼的雜湊值。"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:452
 msgid "Save metadata"
@@ -630,7 +630,7 @@ msgstr "設定"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:620
 msgid "Settings in this section will be added to config file."
-msgstr "此區域的設定將加入至設定檔案。"
+msgstr "此區域的設定將加入至配置檔案。"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:624
 msgid "Settings list"
@@ -711,7 +711,7 @@ msgstr "Aria2 服務執行中。"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:217
 msgid "The directory to store the config file, session file and DHT file."
-msgstr "儲存設定檔案、工作階段檔案和 DHT 檔案的目錄。"
+msgstr "儲存配置檔案、工作階段檔案和 DHT 檔案的目錄。"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:213
 msgid ""
