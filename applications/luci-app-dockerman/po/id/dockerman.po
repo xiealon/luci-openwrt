@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-02-05 09:04+0000\n"
-"Last-Translator: william wijaya <wijayawilliam333@gmail.com>\n"
+"PO-Revision-Date: 2026-02-26 14:29+0000\n"
+"Last-Translator: iqbalramdhan <iqbalramdhan0412@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsdockerman/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:487
 msgid "/mnt/path"
@@ -49,7 +49,7 @@ msgstr "Tambah"
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:297
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:602
 msgid "Add Mount"
-msgstr ""
+msgstr "Tambah pasang"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:637
 msgid "Add host device to the container"
@@ -79,7 +79,7 @@ msgstr ""
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container.js:480
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:239
 msgid "Always"
-msgstr ""
+msgstr "Selalu"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:222
 msgid "Always pull image first"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/overview.js:139
 msgid "Available"
-msgstr "Tersedia"
+msgstr "Sudah ada"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container.js:425
 msgid "Back to Containers"
@@ -372,7 +372,7 @@ msgstr "Nama Kontainer"
 msgid "Container Statistics"
 msgstr ""
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:922
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:927
 msgid "Container created"
 msgstr ""
 
@@ -380,7 +380,7 @@ msgstr ""
 msgid "Container detail"
 msgstr "Detail kontainer"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:922
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:927
 msgid "Container duplicated"
 msgstr ""
 
@@ -429,11 +429,11 @@ msgstr "Gambaran kontainer"
 msgid "Create"
 msgstr ""
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:916
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:921
 msgid "Create container"
 msgstr ""
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:937
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:942
 msgid "Create container failed"
 msgstr ""
 
@@ -1238,11 +1238,11 @@ msgstr "Jaringan"
 msgid "Networks overview"
 msgstr "Ikhtisar jaringan"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:924
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:929
 msgid "New container duplicated from"
 msgstr ""
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:925
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:930
 msgid "New container has been created."
 msgstr ""
 
@@ -1292,7 +1292,7 @@ msgstr ""
 msgid "No logs available"
 msgstr ""
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:909
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:914
 msgid "No name specified."
 msgstr ""
 
@@ -1476,7 +1476,6 @@ msgstr ""
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container.js:501
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/containers.js:164
-#, fuzzy
 msgid "Ports"
 msgstr "Porta (banyak)"
 
@@ -1494,10 +1493,6 @@ msgstr ""
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container.js:822
 msgid "Processes"
-msgstr ""
-
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/dockerman/common.js:1095
-msgid "Progress"
 msgstr ""
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:319
@@ -1656,7 +1651,7 @@ msgstr ""
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/events.js:249
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/network.js:62
 msgid "Scope"
-msgstr ""
+msgstr "Cakupan"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/events.js:91
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/events.js:336
@@ -2272,7 +2267,7 @@ msgid "volume name"
 msgstr ""
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container.js:1352
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:928
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:933
 msgid "with warnings"
 msgstr ""
 
