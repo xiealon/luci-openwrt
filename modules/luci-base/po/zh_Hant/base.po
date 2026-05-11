@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2026-04-27 11:37+0000\n"
+"PO-Revision-Date: 2026-05-02 12:03+0000\n"
 "Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luci/zh_Hant/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:212
 msgid "!known (not known)"
@@ -103,7 +103,7 @@ msgstr "%s 使用預設的 MAC 位址格式編碼"
 msgid "%s; %d tokens separated by %s"
 msgstr "%s; %d 個以 %s 分隔的權仗"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:917
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:925
 msgid "'net30', 'p2p', or 'subnet'"
 msgstr "'net30'，'p2p'或'subnet'"
 
@@ -203,7 +203,7 @@ msgstr "06: x86 UEFI (IA32)"
 msgid "07: x64 UEFI"
 msgstr "07: x64 UEFI"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:336
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:344
 msgid "0: Deny"
 msgstr "0: 拒絕"
 
@@ -267,7 +267,7 @@ msgstr "18: ARM32 UEFI (HTTP 啟動)"
 msgid "19: ARM UEFI 64 boot from HTTP"
 msgstr "19: ARM64 UEFI (HTTP 啟動)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:337
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:345
 msgid "1: OS utils"
 msgstr "1: OS 工具"
 
@@ -324,7 +324,7 @@ msgstr "28: RISC-V 64 位元 UEFI (HTTP 啟動)"
 msgid "29: RISC-V 128-bit UEFI"
 msgstr "29: RISC-V 128 位元 UEFI"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:346
 msgid "2: User scripts"
 msgstr "2: 使用者指令碼"
 
@@ -373,7 +373,7 @@ msgstr "38: LoongArch 32 位元 (HTTP 啟動)"
 msgid "39: LoongArch 64-bit UEFI"
 msgstr "39: LoongArch 64 位元 UEFI"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:339
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:347
 msgid "3: Allow passwords in env"
 msgstr "3: 允許環境變數中出現密碼"
 
@@ -853,7 +853,7 @@ msgstr "缺失介面"
 msgid "Accept DNS queries only from hosts whose address is on a local subnet."
 msgstr "僅接受本地子網路上的主機查詢 DNS。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:220
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:228
 msgid "Accept VLANs"
 msgstr "接受 VLAN"
 
@@ -865,7 +865,7 @@ msgstr "從公鑰接受"
 msgid "Accept local"
 msgstr "接受本地"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
 msgid "Accept options pushed from server"
 msgstr "接受伺服器推送的選項"
 
@@ -1074,7 +1074,7 @@ msgstr "新增對等點位址"
 msgid "Add requestor MAC"
 msgstr "新增請求者 MAC"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:631
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
 msgid "Add route after establishing connection"
 msgstr "建立連線後新增路由"
 
@@ -1119,7 +1119,7 @@ msgstr "新增 IPv6 至 IPv4 集合 (反之亦然) 會失敗。"
 msgid "Additional Peers"
 msgstr "額外對等點"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1190
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
 msgid "Additional authentication over TLS"
 msgstr "額外 TLS 認證"
 
@@ -1293,7 +1293,7 @@ msgstr ""
 msgid "Allow all except listed"
 msgstr "僅允許清單外"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:138
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:146
 msgid "Allow client-to-client traffic"
 msgstr "允許用戶端到用戶端的通訊"
 
@@ -1313,11 +1313,11 @@ msgstr "僅允許清單內"
 msgid "Allow localhost"
 msgstr "允許本機"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1402
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1410
 msgid "Allow multiple clients with same certificate"
 msgstr "允許多個使用者共用同一憑證"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
 msgid "Allow only one session"
 msgstr "只允許一個工作階段"
 
@@ -1333,7 +1333,7 @@ msgstr "允許閒置連接埠接收"
 msgid "Allow remote hosts to connect to local SSH forwarded ports"
 msgstr "允許遠端主機連線至本地 SSH 轉送埠"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:587
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:595
 msgid "Allow remote to change its IP or port"
 msgstr "允許遠端更改 IP 或連接埠"
 
@@ -1355,15 +1355,15 @@ msgstr "允許 <em>root</em> 使用者以密碼登入"
 msgid "Allowed IPs"
 msgstr "允許的 IP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1459
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1467
 msgid "Allowed maximum of connected clients"
 msgstr "允許的最大已連線用戶數"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1466
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1474
 msgid "Allowed maximum of internal"
 msgstr "允許的最大內部連線"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1473
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1481
 msgid "Allowed maximum of new connections"
 msgstr "允許的最大新連線數"
 
@@ -1375,7 +1375,7 @@ msgstr "允許的網路技術"
 msgid "AllowedIPs setting is invalid"
 msgstr "AllowedIPs 設定無效"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1678
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1686
 msgid ""
 "Almost nothing here prevents you from selecting invalid configuration "
 "options which prevent openvpn from starting. Read the manual."
@@ -1502,7 +1502,7 @@ msgstr "任何封包"
 msgid "Any zone"
 msgstr "任何區域"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:492
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:500
 msgid "Append log to file"
 msgstr "新增紀錄至檔案"
 
@@ -1571,14 +1571,16 @@ msgstr "關聯數"
 msgid ""
 "At least <strong>%h</strong> per <strong>%h</strong>, burst of <strong>%h</"
 "strong>"
-msgstr "最少 <strong>%h</strong> 每 <strong>%h</strong>，突發 <strong>%h</strong>"
+msgstr ""
+"最少 <strong>%h</strong> 每 <strong>%h</strong>，突發 <strong>%h</strong>"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:134
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:135
 msgid ""
 "At most <strong>%h</strong> per <strong>%h</strong>, burst of <strong>%h</"
 "strong>"
-msgstr "最多 <strong>%h</strong> 每 <strong>%h</strong>，突發 <strong>%h</strong>"
+msgstr ""
+"最多 <strong>%h</strong> 每 <strong>%h</strong>，突發 <strong>%h</strong>"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:133
 msgid "Attempt to enable configured mount points for attached devices"
@@ -1602,7 +1604,7 @@ msgstr "認證群組"
 msgid "Auth Priv"
 msgstr "認證權限"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1504
 msgid "Authenticate using username/password"
 msgstr "以使用者名稱/密碼進行認證"
 
@@ -1674,7 +1676,7 @@ msgstr "熱插拔後自動掛載檔案系統"
 msgid "Automatically mount swap on hotplug"
 msgstr "熱插拔後自動掛載 swap"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1582
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1590
 msgid "Automatically redirect default route"
 msgstr "自動重新導向至預設路由"
 
@@ -1782,7 +1784,7 @@ msgstr "基本裝置"
 msgid "Base64-encoded public key of this interface for sharing."
 msgstr "此介面的 Base64 編碼公鑰用於分享。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1596
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
 msgid "Basic Settings"
 msgstr "基本設定"
 
@@ -1972,7 +1974,7 @@ msgstr "dnsmasq 預設快取 A、AAAA、CNAME 和SRV 類型的 DNS 紀錄。"
 msgid "CA certificate; if empty it will be saved after the first connection."
 msgstr "CA 憑證；若留空會在第一次連線後儲存。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:950
 msgid "CA path"
 msgstr "CA 路徑"
 
@@ -2008,7 +2010,7 @@ msgstr "快取任意 RR"
 msgid "Cached"
 msgstr "已快取"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:373
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
 msgid "Call down cmd/script before TUN/TAP close"
 msgstr "TUN/TAP 關閉前的指令列及指令碼"
 
@@ -2162,11 +2164,11 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "鏈鉤「%h」"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:281
 msgid "Change process priority"
 msgstr "變更行程優先級"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
 msgid "Change to directory before initialization"
 msgstr "初始化前改變根目錄"
 
@@ -2214,7 +2216,7 @@ msgstr "頻道寬度"
 msgid "Check filesystems before mount"
 msgstr "掛載前檢查檔案系統"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1264
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1272
 msgid "Check peer certificate against a CRL"
 msgstr "檢查對等點憑證是否符合 CRL"
 
@@ -2258,7 +2260,7 @@ msgstr ""
 "選擇要附加至無線網路介面的多個網路或者填寫 <em>create</em> 以便定義一個新的網"
 "路。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:266
 msgid "Chroot to directory after initialization"
 msgstr "初始化後改變根目錄"
 
@@ -2270,7 +2272,7 @@ msgstr "加密演算法"
 msgid "Cisco UDP encapsulation"
 msgstr "Cisco UDP 封裝"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1758
 msgid "Clear"
 msgstr "清除"
 
@@ -2299,11 +2301,11 @@ msgstr "用戶端"
 msgid "Client ID to send when requesting DHCP"
 msgstr "請求 DHCP 時發送的用戶端 ID"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
 msgid "Client is disabled"
 msgstr "用戶端被停用"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1714
 msgid "Client metadata"
 msgstr "用戶端詮釋資料"
 
@@ -2390,7 +2392,7 @@ msgid "Compute outgoing checksum (optional)."
 msgstr "計算傳出校驗碼 (可選)。"
 
 #: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
 msgid "Config File"
 msgstr "配置檔案"
 
@@ -2420,6 +2422,10 @@ msgid "Configure client mode"
 msgstr "配置用戶端模式"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:111
+msgid "Configure server Ipv6 mode"
+msgstr "配置伺服器 IPv6 模式"
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:119
 msgid "Configure server bridge"
 msgstr "配置伺服器橋接"
 
@@ -2485,11 +2491,11 @@ msgstr "確認斷線"
 msgid "Confirmation"
 msgstr "確認"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1561
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1569
 msgid "Connect through Socks5 proxy"
 msgstr "透過 Sock5 代理連線"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1532
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1540
 msgid "Connect to remote host through an HTTP proxy"
 msgstr "透過 HTTP 代理連線至遠端主機"
 
@@ -2518,7 +2524,7 @@ msgstr "連線端點"
 msgid "Connection lost"
 msgstr "連線遺失"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1533
 msgid "Connection retry interval"
 msgstr "連線重試時間間隔"
 
@@ -2644,7 +2650,7 @@ msgstr "Cron 紀錄等級"
 msgid "Cross Pass (Japan only)"
 msgstr "Cross Pass (僅日本)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1599
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
 msgid "Cryptography"
 msgstr "密碼學"
 
@@ -2968,11 +2974,11 @@ msgstr "MII 連結斷開事件後啟用連接埠的延遲 (毫秒)"
 msgid "Delay before enabling port after MII link up event (msec)"
 msgstr "MII 連結事件後啟用連接埠的延遲 (毫秒)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:655
 msgid "Delay n seconds after connection"
 msgstr "連線後延遲 n 秒"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
 msgid "Delay tun/tap open and up script execution"
 msgstr "延遲 TUN/TAP 的開啟及 up 指令碼的執行"
 
@@ -3140,7 +3146,7 @@ msgid "Device unreachable! Still waiting for device..."
 msgstr "裝置無法存取！仍在等待裝置中..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1519
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1600
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr "裝置"
@@ -3168,7 +3174,7 @@ msgstr ""
 "指示節點在可達性確定後假定鄰居可達的時間；在 <abbr title=\"路由器公告\">RA</"
 "abbr> 訊息中發布。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:934
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
 msgid "Diffie-Hellman parameters"
 msgstr "Diffie-Hellman 參數"
 
@@ -3180,7 +3186,7 @@ msgstr "目錄"
 msgid "Directory"
 msgstr "目錄"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1412
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1420
 msgid "Directory for custom client config files"
 msgstr "自訂用戶端配置檔案的目錄"
 
@@ -3230,7 +3236,7 @@ msgstr "停用此介面 <abbr title=\"動態主機配置協定\">DHCP</abbr> (�
 msgid "Disable DNS lookups"
 msgstr "停用 DNS 查詢"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:924
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:932
 msgid "Disable Data Channel Offloading (DCO) support"
 msgstr "停用資料通道卸載 (DCO) 支援"
 
@@ -3242,11 +3248,11 @@ msgstr "停用加密"
 msgid "Disable Inactivity Polling"
 msgstr "停用非活動輪詢"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:243
 msgid "Disable Paging"
 msgstr "停用分頁"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:242
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
 msgid "Disable options consistency check"
 msgstr "停用選項一致性檢查"
 
@@ -3368,7 +3374,7 @@ msgstr ""
 "此引導區域繫結的 Dnsmasq 實例。未指定則此區域對所有 Dnsmasq 實例都有效。"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:37
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:594
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:602
 msgid "Do not bind to local address and port"
 msgstr "不繫結本地位址和連接埠"
 
@@ -3464,39 +3470,39 @@ msgstr "網域白名單"
 msgid "Don't Fragment"
 msgstr "不分片"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:617
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:625
 msgid "Don't actually execute ifconfig"
 msgstr "不實際執行 ifconfig"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:654
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:662
 msgid "Don't add routes automatically"
 msgstr "不自動新增路由"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1213
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1221
 msgid "Don't cache --askpass or --auth-user-pass passwords"
 msgstr "不快取 --askpass 或 --auth-user-pass passwords"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:668
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:676
 msgid "Don't drop incoming tun packets with same destination as host"
 msgstr "不丟棄與主機目的地相同的傳入 tun 封包"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1351
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
 msgid "Don't inherit global push options"
 msgstr "不繼承全域推送選項"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:515
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
 msgid "Don't log timestamps"
 msgstr "不記錄時間戳"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:661
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:669
 msgid "Don't pull routes automatically"
 msgstr "不自動拉取路由"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:842
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:850
 msgid "Don't re-read key on restart"
 msgstr "服務重啟時不重讀金鑰值"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:624
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:632
 msgid "Don't warn on ifconfig inconsistencies"
 msgstr "ifconfig 不一致時不警告"
 
@@ -3528,7 +3534,7 @@ msgstr "下載對等點配置檔案"
 msgid "Downstream SNR offset"
 msgstr "下行 SNR 偏移"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1770
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1778
 msgid "Drag and drop an ovpn config file here"
 msgstr "將 ovpn 配置檔拖曳至此"
 
@@ -3677,7 +3683,7 @@ msgid ""
 msgstr ""
 "每個軟體儲存庫的公鑰 (來自官方或第三方) 允許套件管理器安裝由其簽署的套件。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:486
 msgid "Echo parameters to log"
 msgstr "紀錄顯示參數"
 
@@ -3789,7 +3795,7 @@ msgstr "發出 netlink IP 位址缺失通知"
 msgid "Emits netlink LLADDR miss notifications"
 msgstr "發出 netlink 連結本地位址缺失通知"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:687
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:695
 msgid "Empirically measure MTU"
 msgstr "實際測量 MTU"
 
@@ -3872,11 +3878,11 @@ msgstr "啟用 MAC 位址學習"
 msgid "Enable NTP client"
 msgstr "啟用 NTP 用戶端"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:998
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1006
 msgid "Enable OpenSSL hardware crypto engines"
 msgstr "開啟 OpenSSL 硬體加密引擎"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:680
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:688
 msgid "Enable Path MTU discovery"
 msgstr "啟用路徑 MTU 發現"
 
@@ -3888,7 +3894,7 @@ msgstr "啟用私密 PSK (PPSK)"
 msgid "Enable Single DES"
 msgstr "啟用單 DES"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Enable Static Key encryption mode (non-TLS)"
 msgstr "啟用靜態金鑰加密模式 (非 TLS)"
 
@@ -3896,11 +3902,11 @@ msgstr "啟用靜態金鑰加密模式 (非 TLS)"
 msgid "Enable TFTP server"
 msgstr "啟用 TFTP 伺服器"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1056
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1064
 msgid "Enable TLS and assume client role"
 msgstr "啟用 TLS 並代入用戶端角色"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1049
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1057
 msgid "Enable TLS and assume server role"
 msgstr "允許 TLS 並偽裝為伺服器"
 
@@ -3934,7 +3940,7 @@ msgid ""
 "Enable downstream delegation of IPv6 prefixes available on this interface"
 msgstr "啟用此介面可用的 IPv6 首碼下游委派"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
 msgid "Enable internal datagram fragmentation"
 msgstr "允許內部資料包分片"
 
@@ -3946,7 +3952,7 @@ msgstr "啟用金鑰重新安裝攻擊 (KRACK) 緩解措施"
 msgid "Enable learning and aging"
 msgstr "啟用學習/老化功能"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:865
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:873
 msgid "Enable management interface on <em>IP</em> <em>port</em>"
 msgstr "在 <em>IP</em> <em>連接埠</em> 上啟用可管理介面"
 
@@ -4096,11 +4102,11 @@ msgstr "封裝限制"
 msgid "Encapsulation mode"
 msgstr "封裝模式"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
 msgid "Encrypt and authenticate all control channel packets with the key"
 msgstr "使用金鑰加密及認證所有的控制通道封包"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1214
 msgid ""
 "Encrypt and authenticate all control channel packets with the key, version 2."
 msgstr "使用金鑰加密和認證所有控制通道封包 (版本 2)。"
@@ -4113,7 +4119,7 @@ msgstr "使用金鑰加密和認證所有控制通道封包 (版本 2)。"
 msgid "Encryption"
 msgstr "加密"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:974
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:982
 msgid "Encryption cipher for packets"
 msgstr "封包使用的加密演算法"
 
@@ -4214,21 +4220,21 @@ msgstr ""
 msgid "Exclude interfaces"
 msgstr "排除介面"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:390
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
 msgid "Execute shell cmd after routes are added"
 msgstr "新增路由後執行 shell 指令"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 msgid "Execute shell command on remote IP change"
 msgstr "當遠端 IP 改變時執行 shell 指令"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
 msgid ""
 "Executed in server mode on new client connections, when the client is still "
 "untrusted"
 msgstr "即使用戶端不可信，仍然在伺服器模式下執行新的連線"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
 msgid ""
 "Executed in server mode whenever an IPv4 address/route or MAC address is "
 "added to OpenVPN's internal routing table"
@@ -4257,7 +4263,7 @@ msgstr ""
 msgid "Existing device"
 msgstr "現有裝置"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1191
 msgid "Exit on TLS negotiation failure"
 msgstr "TLS 交涉失敗後退出"
 
@@ -4309,7 +4315,7 @@ msgstr "需要冒號分隔的兩個優先順序"
 msgid "Expecting: %s"
 msgstr "需要: %s"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
 msgid "Expert Settings"
 msgstr "專家設定"
 
@@ -4823,7 +4829,7 @@ msgstr "分片"
 msgid "Fragmentation Threshold"
 msgstr "分片閾值"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1707
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
 msgid "Freeform metadata to embed into the client key"
 msgstr "嵌入至用戶金鑰的自由形式詮釋資料"
 
@@ -4940,7 +4946,7 @@ msgstr "一般設定"
 msgid "General device options"
 msgstr "一般裝置選項"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1723
 msgid "Generate"
 msgstr "產生"
 
@@ -4989,7 +4995,7 @@ msgstr "產生適合在 WireGuard 對等點上匯入的配置"
 msgid "Generating QR code…"
 msgstr "產生 QR 碼中…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:949
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:957
 msgid "Get certificate password from file before we daemonize"
 msgstr "常駐程式化前從檔案取得憑證密碼"
 
@@ -5186,7 +5192,7 @@ msgstr "HE.net 密碼"
 msgid "HE.net username"
 msgstr "HE.net 使用者名稱"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:955
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:963
 msgid "HMAC authentication for packets"
 msgstr "使用 HMAC 認證封包"
 
@@ -5203,7 +5209,7 @@ msgstr "HTTP(S) 存取"
 msgid "Half Duplex"
 msgstr "半雙工"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1503
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1511
 msgid "Handling of authentication failures"
 msgstr "處理認證失敗"
 
@@ -5223,8 +5229,8 @@ msgstr "心跳間隔 (核心: 心跳)"
 msgid "Hello interval"
 msgstr "Hello 間隔"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:132
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:797
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:140
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
 msgid ""
 "Helper directive to simplify the expression of --ping and --ping-restart in "
 "server mode configurations"
@@ -5807,7 +5813,7 @@ msgstr ""
 "若為空，則將允許所有傳入連線 (預設)。這不會影響傳出對等互連，也不會影響透過多"
 "播發現的本地連結對對等點。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1575
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1583
 msgid "If hostname resolve fails, retry"
 msgstr "若主機名稱解析失敗則重試"
 
@@ -6398,11 +6404,11 @@ msgstr "Jumper"
 msgid "Jumps to another rule specified by its priority value"
 msgstr "跳至由其優先順序值指定的另一規則"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:849
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:857
 msgid "Keep local IP address on restart"
 msgstr "服務重啟時保持本地 IP 位址"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:856
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:864
 msgid "Keep remote IP address on restart"
 msgstr "服務重啟時保持遠端 IP 位址"
 
@@ -6410,7 +6416,7 @@ msgstr "服務重啟時保持遠端 IP 位址"
 msgid "Keep settings and retain the current configuration"
 msgstr "保留當前設定"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:835
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:843
 msgid "Keep tun/tap device open on restart"
 msgstr "服務重啟時自動開啟 TUN/TAP 裝置"
 
@@ -6469,7 +6475,7 @@ msgctxt "Label indicating that WireGuard peer lacks public key"
 msgid "Key missing"
 msgstr "缺少金鑰"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
 msgid "Key transition window"
 msgstr "金鑰傳輸視窗"
 
@@ -6477,7 +6483,7 @@ msgstr "金鑰傳輸視窗"
 msgid "Key used to sign network config"
 msgstr "簽署網路配置的金鑰"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1602
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1610
 msgid "Keygen"
 msgstr "金鑰產生"
 
@@ -6676,7 +6682,7 @@ msgstr "圖例:"
 msgid "Limit"
 msgstr "限制"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:508
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:516
 msgid "Limit repeated log messages"
 msgstr "限制重複的紀錄訊息"
 
@@ -6976,7 +6982,7 @@ msgstr "本地網域"
 msgid "Local domain suffix appended to DHCP names and hosts file entries."
 msgstr "附加至 DHCP 名稱和主機檔案條目的本地網域尾碼。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:543
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
 msgid "Local host name or IP address"
 msgstr "本地主機名稱或 IP 位址"
 
@@ -7069,7 +7075,7 @@ msgid "Log queries"
 msgstr "紀錄查詢"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:118
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1603
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1611
 msgid "Logging"
 msgstr "紀錄"
 
@@ -7213,7 +7219,7 @@ msgstr "MX"
 msgid "Mail"
 msgstr "郵件"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:536
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:544
 msgid "Major mode"
 msgstr "主要模式"
 
@@ -7223,15 +7229,15 @@ msgid ""
 "below:"
 msgstr "確保使用以下指令複製根檔案系統:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1612
 msgid "Management"
 msgstr "管理"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
 msgid "Management cert"
 msgstr "管理憑證"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:911
 msgid "Management key"
 msgstr "管理金鑰"
 
@@ -7393,7 +7399,7 @@ msgstr "最大 FDB 條目數量"
 msgid "Maximum number of leased addresses."
 msgstr "租約位址的最大數量。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1452
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1460
 msgid "Maximum number of queued TCP output packets"
 msgstr "TCP 佇列中傳出封包的最大數量"
 
@@ -7951,7 +7957,7 @@ msgstr "網路介面名稱配置遷移"
 msgid "Network interface"
 msgstr "網路介面"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1613
 msgid "Networking"
 msgstr "網路"
 
@@ -8333,7 +8339,7 @@ msgstr "注意"
 msgid "Nslookup"
 msgstr "Nslookup"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1445
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1453
 msgid "Number of allocated broadcast buffers"
 msgstr "已分配的廣播緩衝區數量"
 
@@ -8341,7 +8347,7 @@ msgstr "已分配的廣播緩衝區數量"
 msgid "Number of cached DNS entries, 10000 is maximum, 0 is no caching."
 msgstr "DNS 快取條目數量，最大值為 10000，0 為不快取。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
 msgid "Number of lines for log file history"
 msgstr "歷史紀錄檔案的行數"
 
@@ -8483,7 +8489,7 @@ msgid ""
 "at any given time."
 msgstr "在給定時間內預計只有一個 MAC 位址在網路上處於活動狀態。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:828
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:836
 msgid "Only process ping timeouts if routes exist"
 msgstr "僅當路由存在時處理 ping 逾時"
 
@@ -8499,7 +8505,7 @@ msgstr "開啟清單..."
 msgid "OpenConnect (CISCO AnyConnect)"
 msgstr "OpenConnect (CISCO AnyConnect)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1640
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1648
 msgid "OpenVPN"
 msgstr "OpenVPN"
 
@@ -8546,7 +8552,7 @@ msgstr "電信業者識別碼"
 msgid "Operator Name"
 msgstr "電信業者名稱"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:280
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:288
 msgid "Optimize TUN/TAP/UDP writes"
 msgstr "最佳化 TUN/TAP/UDP 寫入"
 
@@ -8682,11 +8688,11 @@ msgstr "可選。用於傳出和傳入封包的 UDP 連接埠。"
 msgid "Options"
 msgstr "選項"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1681
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1689
 msgid "Options marked with ² are OpenSSL only."
 msgstr "標記為 ² 的選項僅適用於 OpenSSL。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1679
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1687
 msgid "Options marked with ¹ are deprecated and will be removed."
 msgstr "標記為 ¹ 的選項已棄用，將會被移除。"
 
@@ -8919,7 +8925,7 @@ msgstr "PIN 碼被拒絕"
 msgid "PIO directory"
 msgstr "PIO 目錄"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:174
 msgid "PKCS#12 file containing keys"
 msgstr "PKCS#12 檔案包含的金鑰"
 
@@ -9022,11 +9028,11 @@ msgstr[0] "網路歸屬:"
 msgid "Part of zone %q"
 msgstr "區域 %q 的部分"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:405
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
 msgid "Pass environment variables to script"
 msgstr "傳遞環境變數至指令碼"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:421
 msgid "Pass environment variables to script prepended with OPENVPN_"
 msgstr "在環境變數名稱前加上 OPENVPN_ 傳給指令碼"
 
@@ -9099,7 +9105,7 @@ msgstr "貼上或拖曳儲存庫公鑰"
 msgid "Paste or drag supplied WireGuard configuration file…"
 msgstr "貼上或拖曳提供的 WireGuard 配置檔…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1733
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1741
 msgid "Path"
 msgstr "路徑"
 
@@ -9225,11 +9231,11 @@ msgstr "執行重設"
 msgid "Permission denied"
 msgstr "權限被拒絕"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1050
 msgid "Persist replay-protection state"
 msgstr "儲存重播保護狀態"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1374
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1382
 msgid "Persist/unpersist ifconfig-pool"
 msgstr "持久/非持久 ifconfig 池"
 
@@ -9255,7 +9261,7 @@ msgstr "實體設定"
 msgid "Ping"
 msgstr "Ping"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "透過 TCP/UDP 連接埠每 n 秒 ping 一次遠端"
 
@@ -9317,7 +9323,7 @@ msgstr "PoE 狀態"
 msgid "Policy"
 msgstr "策略"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:341
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:349
 msgid "Policy level over usage of external programs and scripts"
 msgstr "外部程式和指令碼超出了策略允許的使用範圍"
 
@@ -9577,7 +9583,7 @@ msgstr "代理"
 msgid "Proxy Server"
 msgstr "代理伺服器"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1555
 msgid "Proxy timeout in seconds"
 msgstr "代理逾時 (單位: 秒)"
 
@@ -9628,15 +9634,15 @@ msgstr "分配給用戶端的公共路由首碼。"
 msgid "PublicKey setting is invalid"
 msgstr "PublicKey 設定無效"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1606
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1614
 msgid "Push"
 msgstr "推送"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1389
 msgid "Push an ifconfig option to remote"
 msgstr "推送一個 ifconfig 選項至遠端"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1346
 msgid "Push options to peer"
 msgstr "推送選項至對等點"
 
@@ -9678,7 +9684,7 @@ msgstr "查詢所有可用上游解析器。"
 msgid "Query interval"
 msgstr "查詢間隔"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:872
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:880
 msgid "Query management channel for private key"
 msgstr "私鑰佇列管理頻道"
 
@@ -9795,7 +9801,7 @@ msgctxt "nft nat flag random"
 msgid "Randomize source port mapping"
 msgstr "隨機化來源連接埠映射"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1517
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
 msgid "Randomly choose remote server"
 msgstr "隨機選擇遠端伺服器"
 
@@ -9803,7 +9809,7 @@ msgstr "隨機選擇遠端伺服器"
 msgid "Raw Data"
 msgstr "原始資料"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1767
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1775
 msgid "Raw OVPN config"
 msgstr "原始 OVPN 配置"
 
@@ -9917,7 +9923,7 @@ msgstr "重新整理頻道"
 msgid "Refreshing"
 msgstr "重新整理"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1419
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1427
 msgid "Refuse connection if no custom client config"
 msgstr "拒絕沒有自訂用戶端配置的連線"
 
@@ -10003,7 +10009,7 @@ msgstr "重新載入"
 msgid "Remaining time"
 msgstr "剩餘時間"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:299
 msgid "Remap SIGUSR1 signals"
 msgstr "重映射 SIGUSR1 訊號"
 
@@ -10039,7 +10045,7 @@ msgstr "遠端 VTEP"
 msgid "Remote host name or IP address"
 msgstr "遠端主機名稱或 IP 位址"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
 msgid "Remote ping timeout"
 msgstr "遠端 ping 逾時"
 
@@ -10059,7 +10065,7 @@ msgstr "從結果中刪除 IPv6 位址，僅返回 IPv4 位址。"
 msgid "Remove MAC address before forwarding query"
 msgstr "在轉送查詢之前刪除 MAC 位址"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1345
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1353
 msgid "Remove Push options"
 msgstr "移除推送選項"
 
@@ -10105,15 +10111,15 @@ msgstr "在轉送查詢之前刪除子網路位址"
 msgid "Removes records of the specified type(s) from answers."
 msgstr "從回應中刪除指定類型紀錄。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
 msgid "Renegotiate data chan. key after bytes"
 msgstr "傳輸若干位元組後重新協商資料隧道金鑰"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
 msgid "Renegotiate data chan. key after packets"
 msgstr "傳輸若干封包後重新協商資料隧道金鑰"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
 msgid "Renegotiate data chan. key after seconds"
 msgstr "傳輸若干秒後重新協商資料隧道金鑰"
 
@@ -10121,8 +10127,8 @@ msgstr "傳輸若干秒後重新協商資料隧道金鑰"
 msgid "Replace wireless configuration"
 msgstr "取代無線配置"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1020
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1027
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1028
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1035
 msgid "Replay protection sliding window size"
 msgstr "重播保護的滑動視窗大小"
 
@@ -10155,12 +10161,12 @@ msgstr "請求 IPv6 首碼"
 msgid "Request timeout"
 msgstr "請求逾時"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1233
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1241
 msgid "Require explicit designation on certificate"
 msgstr "憑證需要顯式指定"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1246
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1257
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1254
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1265
 msgid "Require explicit key usage on certificate"
 msgstr "憑證需要明確的金鑰"
 
@@ -10178,7 +10184,7 @@ msgstr "需要傳入校驗碼 (可選)。"
 msgid "Require incoming packets serialization (optional)."
 msgstr "要求傳入封包序列化 (可選)。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1239
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1247
 msgid "Require remote cert extended key usage on certificate"
 msgstr "要求遠端憑證包含擴充金鑰用途"
 
@@ -10363,7 +10369,7 @@ msgstr "重新啟動"
 msgid "Restart Firewall"
 msgstr "重啟防火牆"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:829
 msgid "Restart after remote ping timeout"
 msgstr "遠端 ping 逾時後重啟"
 
@@ -10379,11 +10385,11 @@ msgstr "恢復"
 msgid "Restore backup"
 msgstr "恢復備份"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1324
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1332
 msgid "Restrict the allowed ciphers to be negotiated"
 msgstr "限制允許的交涉加密演算法"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1127
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
 msgid "Retransmit timeout on TLS control channel"
 msgstr "TLS 控制通道重傳逾時"
 
@@ -10392,11 +10398,11 @@ msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
 msgstr "從 Yggdrasil 介面配置中取得監聽器位址。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1539
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
 msgid "Retry indefinitely on HTTP proxy errors"
 msgstr "在 HTTP 代理錯誤時無限重試"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1568
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1576
 msgid "Retry indefinitely on Socks proxy errors"
 msgstr "在 Socks 代理錯誤時無限重試"
 
@@ -10520,7 +10526,7 @@ msgstr "路由動作鏈「%h」"
 msgid "Route short-circuit (RSC)"
 msgstr "路由短路 (RSC)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1388
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1396
 msgid "Route subnet to client"
 msgstr "路由子網路至用戶端"
 
@@ -10528,7 +10534,7 @@ msgstr "路由子網路至用戶端"
 msgid "Route type"
 msgstr "路由類型"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1395
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1403
 msgid "Route v6 subnet to client"
 msgstr "路由 v6 子網路至用戶端"
 
@@ -10621,23 +10627,23 @@ msgid ""
 "address or interface."
 msgstr "規則根據來源位址或介面等條件決定要使用的路由表。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
 msgid "Run script cmd for client TLS verification"
 msgstr "執行指令碼以進行用戶端 TLS 驗證"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
 msgid "Run script cmd on client connection"
 msgstr "當用戶端連線時執行指令碼"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
 msgid "Run script cmd on client disconnection"
 msgstr "當用戶端斷線時執行指令碼"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
 msgid "Run script cmd to validate client certificates"
 msgstr "執行指令碼以驗證用戶端憑證"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:389
 msgid "Run up/down scripts for all restarts"
 msgstr "每次重啟都執行啟動/關閉指令碼"
 
@@ -10766,7 +10772,7 @@ msgstr "排程任務"
 msgid "Scheduling daemon"
 msgstr "排程常駐程式"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1615
 msgid "Scripting"
 msgstr "指令碼編寫"
 
@@ -10858,7 +10864,7 @@ msgstr "以給定的秒數間隔發送 LCP 回應請求，僅與失敗閾值結�
 msgid "Send multicast beacon"
 msgstr "發送多播信標"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1510
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1518
 msgid "Send notification to peer on disconnect"
 msgstr "斷線時向用戶端傳送通知"
 
@@ -10881,7 +10887,7 @@ msgstr "伺服器"
 msgid "Server address"
 msgstr "伺服器位址"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1698
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
 msgid "Server key"
 msgstr "伺服器金鑰"
 
@@ -10889,7 +10895,7 @@ msgstr "伺服器金鑰"
 msgid "Server name"
 msgstr "伺服器名稱"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1616
 msgid "Service"
 msgstr "服務"
 
@@ -10929,11 +10935,11 @@ msgstr "設定主機名稱的別名。"
 msgid "Set an arbitrary resource record (RR) type."
 msgstr "設定任意資源紀錄 (RR) 類型。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1375
 msgid "Set aside a pool of subnets"
 msgstr "設定子網池"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1554
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1562
 msgid "Set extended HTTP proxy options"
 msgstr "設定擴充 HTTP 代理選項"
 
@@ -10958,19 +10964,19 @@ msgstr ""
 msgid "Set log class/facility for syslog entries."
 msgstr "設定系統紀錄條目的類別/設施。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:531
 msgid "Set output verbosity"
 msgstr "設定輸出詳細等級"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1446
 msgid "Set size of real and virtual address hash tables"
 msgstr "設定實際和虛擬位址的雜湊表大小"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
 msgid "Set the TCP/UDP receive buffer size"
 msgstr "設定 TCP/UDP 接收緩衝區大小"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
 msgid "Set the TCP/UDP send buffer size"
 msgstr "設定 TCP/UDP 傳送緩衝區大小"
 
@@ -10989,7 +10995,7 @@ msgid ""
 "proxying."
 msgstr "設定此介面為 RA 和 DHCPv6 中繼及 NDP 代理的主介面。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
 msgid "Set tun/tap TX queue length"
 msgstr "設定 TUN/TAP 發送佇列長度"
 
@@ -10998,11 +11004,11 @@ msgstr "設定 TUN/TAP 發送佇列長度"
 msgid "Set tun/tap adapter parameters"
 msgstr "設定 TUN/TAP 介面卡參數"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:726
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
 msgid "Set tun/tap device MTU"
 msgstr "設定 TUN/TAP 裝置 MTU"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
 msgid "Set tun/tap device overhead"
 msgstr "設定 TUN/TAP 裝置開銷"
 
@@ -11015,7 +11021,7 @@ msgstr "設定 DHCP 伺服器"
 msgid "Set up routes for proxied IPv6 neighbours."
 msgstr "設定代理的 IPv6 鄰居路由。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
 msgid "Set upper bound on TCP MSS"
 msgstr "設定 TCP MSS 上限"
 
@@ -11051,19 +11057,19 @@ msgid ""
 "802.11r, 802.11k and 802.11v"
 msgstr "協助無線用戶端在多個 AP 之間漫遊的設定: 802.11r、802.11k 和 802.11v"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
 msgid "Shaping for peer bandwidth"
 msgstr "對等點頻寬塑形"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:350
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
 msgid "Shell cmd to execute after tun device open"
 msgstr "tun 裝置開啟後執行的 shell 指令"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:374
 msgid "Shell cmd to run after tun device close"
 msgstr "tun 裝置關閉後執行的 shell 指令"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
 msgid "Shell command to verify X509 name"
 msgstr "執行 shell 指令以驗證 X509 名稱"
 
@@ -11127,7 +11133,7 @@ msgstr "訊號重新整理頻率"
 msgid "Signal:"
 msgstr "訊號:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1034
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
 msgid "Silence the output of replay warnings"
 msgstr "以靜音方式發出重播警告"
 
@@ -11444,7 +11450,7 @@ msgstr ""
 "指定流量類別。可以是 <code>inherit</code> (外部標頭繼承內部標頭的值) 或十六進"
 "位值 <code>00..FF</code> (可選)。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
 msgid "Specify a placeholder gateway for routes"
 msgstr "為路由指定佔位符閘道"
 
@@ -11463,7 +11469,7 @@ msgid ""
 "bytes)."
 msgstr "指定預設值 (1280 位元組) 以外的 MTU (最大傳輸單元)。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1007
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1015
 msgid "Specify the curve to use for ECDH"
 msgstr "指定 ECDH 使用的曲線"
 
@@ -11476,7 +11482,7 @@ msgstr "指定故障轉移事件後發出的對等點通知數量。"
 msgid "Specify the secret encryption key here."
 msgstr "在此指定加密金鑰。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1589
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
 msgid "Specify whether the client is required to supply a valid certificate"
 msgstr "指定是否要求用戶端提供有效憑證"
 
@@ -11515,7 +11521,7 @@ msgctxt "daemon start action"
 msgid "Start"
 msgstr "啟動"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:879
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
 msgid "Start OpenVPN in a hibernating state"
 msgstr "以休眠狀態啟動 OpenVPN"
 
@@ -11590,7 +11596,7 @@ msgstr "站點閒置限制"
 msgid "Status"
 msgstr "狀態"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:311
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:319
 msgid "Status file format version"
 msgstr "檔案格式版本的狀態"
 
@@ -11794,15 +11800,15 @@ msgid "TCP source port"
 msgstr "TCP 來源連接埠"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:31
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
 msgid "TCP/UDP port # for both local and remote"
 msgstr "TCP/UDP 連接埠 # 同時適用本地和遠端"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
 msgid "TCP/UDP port # for local"
 msgstr "TCP/UDP 連接埠 # 適用本地"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:575
 msgid "TCP/UDP port # for remote"
 msgstr "TCP/UDP 連接埠 # 適用遠端"
 
@@ -11814,19 +11820,19 @@ msgstr "TCP:"
 msgid "TFTP server root"
 msgstr "TFTP 伺服器根"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1115
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1123
 msgid "TLS 1.3 or newer cipher"
 msgstr "TLS 1.3 或更新的加密演算法"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1299
 msgid "TLS cet profile"
 msgstr "TLS 憑證設定檔"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1071
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1079
 msgid "TLS cipher"
 msgstr "TLS 加密演算法"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:265
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
 msgid "TOS passthrough (applies to IPv4 only)"
 msgstr "TOS 穿透 (僅套用於 IPv4)"
 
@@ -12218,7 +12224,7 @@ msgstr ""
 "此主機的十六進位 <abbr title=\"位址尾碼\"><a href=\"%s\">IPv6 權仗</a></"
 "abbr> (最多 16 個字元，即 64 位元)。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1281
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1289
 msgid "The highest supported TLS version"
 msgstr "最高支援的 TLS 版本"
 
@@ -12252,7 +12258,7 @@ msgstr "介面名稱已被使用"
 msgid "The interface name is too long"
 msgstr "介面名稱太長"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:158
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
 msgid "The key direction for 'tls-auth' and 'secret' options"
 msgstr "「tls-auth」和「secret」選項的金鑰方向"
 
@@ -12286,7 +12292,7 @@ msgstr "已建立隧道的本地 IPv4 位址 (可選)。"
 msgid "The local IPv6 address over which the tunnel is created (optional)."
 msgstr "已建立隧道的本地 IPv6 位址 (可選)。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1271
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1279
 msgid "The lowest supported TLS version"
 msgstr "最低支援的 TLS 版本"
 
@@ -12342,7 +12348,7 @@ msgstr ""
 "分隔不同的網路。通常情況下，預設有一個上行連接埠用於連線更大的網路 (例如網際"
 "網路)，其他連接埠則用於區域網路。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:173
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:181
 msgid "The peer key fingerprint"
 msgstr "對等點金鑰指紋"
 
@@ -12715,7 +12721,7 @@ msgstr "時區"
 msgid "Timed-out"
 msgstr "逾時"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
 msgid "Timeframe for key exchange"
 msgstr "金鑰交換時間表"
 
@@ -12769,7 +12775,7 @@ msgstr "開/關 DHCPv6 PD。"
 msgid "Tone"
 msgstr "Tone"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1617
 msgid "Topology"
 msgstr "拓撲"
 
@@ -12907,7 +12913,7 @@ msgstr "發送功率"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1736
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:178
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:43
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1688
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1696
 msgid "Type"
 msgstr "類型"
 
@@ -12915,7 +12921,7 @@ msgstr "類型"
 msgid "Type of service"
 msgstr "服務類型"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:194
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:202
 msgid "Type of used device"
 msgstr "使用裝置類型"
 
@@ -13311,7 +13317,7 @@ msgstr "隧道介面使用的 MTU"
 msgid "Use TTL on tunnel interface"
 msgstr "隧道介面使用的 TTL"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:208
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:216
 msgid "Use VLAN tagging"
 msgstr "使用 VLAN 標記"
 
@@ -13363,7 +13369,7 @@ msgid ""
 "instead of RFC7597"
 msgstr "使用舊版 MAP 介面識別碼格式 (draft-ietf-softwire-map-00) 替代 RFC7597"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:580
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:588
 msgid "Use protocol"
 msgstr "使用協定"
 
@@ -13405,15 +13411,15 @@ msgstr ""
 "選 <em>租約時間</em> 設定非標準的主機特定租約時間，例如: 12h、3d 或 "
 "infinite。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:227
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
 msgid "Use these PVIDs"
 msgstr "使用這些 PVID"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:201
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:209
 msgid "Use tun/tap device node"
 msgstr "使用 TUN/TAP 裝置節點"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1480
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
 msgid "Use username as common name"
 msgstr "把使用者名稱作為通用名稱"
 
@@ -13434,7 +13440,7 @@ msgstr ""
 "用於兩種不同的用途: RADIUS NAS ID 和 802.11r R0KH-ID。一般 WPA(2)-PSK 不需"
 "要。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Used with auth and cipher params"
 msgstr "與認證及加密演算法參數一起使用"
 
@@ -13777,7 +13783,7 @@ msgstr ""
 "使用 PSK 時可自動產生 PMK。啟用後不會套用下方 R0/R1 金鑰選項。停用此選項可使"
 "用 R0 和 R1 金鑰選項。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:609
 msgid ""
 "When you have more than one IP address (e.g. multiple interfaces, or "
 "secondary IP addresses), and do not use --local to force binding to one "
@@ -13886,7 +13892,7 @@ msgstr "無線網路已啟用"
 msgid "Workaround mode can only be used when acting as an access point."
 msgstr "變通模式只能用於存取點。"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:485
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:493
 msgid "Write log to file"
 msgstr "寫入紀錄至檔案"
 
@@ -14302,8 +14308,8 @@ msgstr "分鐘"
 msgid "mobile home agent (H)"
 msgstr "行動 home 代理 (H)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:414
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
 msgid "name value"
 msgstr "名稱值"
 
@@ -14452,7 +14458,7 @@ msgstr "伺服器模式"
 msgid "severity:"
 msgstr "嚴重度:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:479
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:487
 msgid "some params echoed to log"
 msgstr "某些參數會輸出至紀錄"
 
@@ -14510,11 +14516,11 @@ msgctxt "DHCPv6 address request mode"
 msgid "try"
 msgstr "嘗試"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:191
 msgid "tun/tap device"
 msgstr "TUN/TAP 裝置"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:798
 msgid "tun/tap inactivity timeout"
 msgstr "TUN/TAP 休眠逾時"
 
