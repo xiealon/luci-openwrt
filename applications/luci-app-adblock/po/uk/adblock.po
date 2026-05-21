@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-03 08:19+0000\n"
-"Last-Translator: Dan <jonweblin2205@protonmail.com>\n"
+"PO-Revision-Date: 2026-05-12 09:07+0000\n"
+"Last-Translator: Oleksandr Yurov <oyurov@icloud.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/uk/>\n"
 "Language: uk\n"
@@ -9,18 +9,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.5-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:280
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:291
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:322
 msgid "-- default --"
-msgstr "-- за замовчуванням --"
+msgstr "-- типово --"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:223
 msgid "0.0.0.0 <Domain>"
 msgstr "0.0.0.0 <Домен>"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:449
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:465
 msgid "10 minutes"
 msgstr "10 хвилин"
 
@@ -28,23 +29,23 @@ msgstr "10 хвилин"
 msgid "127.0.0.1 <Domain>"
 msgstr "127.0.0.1 <Домен>"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:450
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:466
 msgid "15 minutes"
 msgstr "15 хвилин"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:743
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:759
 msgid "1Hosts List Selection"
-msgstr "1 Вибір списку хостів"
+msgstr "Вибір списку 1Hosts"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:451
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:467
 msgid "30 minutes"
 msgstr "30 хвилин"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:448
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:464
 msgid "5 minutes"
 msgstr "5 хвилин"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:452
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:468
 msgid "60 minutes"
 msgstr "60 хвилин"
 
@@ -64,26 +65,26 @@ msgstr "Дія"
 msgid "Active Feeds"
 msgstr "Активні канали"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:398
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:419
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:510
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:537
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:414
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:435
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:526
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:553
 msgid "AdGuard (default)"
-msgstr "AdGuard (за замовчуванням)"
+msgstr "AdGuard (типовий)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:399
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:420
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:511
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:538
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:415
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:436
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:527
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:554
 msgid "AdGuard (family)"
-msgstr "AdGuard (сім'я)"
+msgstr "AdGuard (сімейний)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:346
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:358
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:460
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:472
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:519
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:546
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:362
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:374
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:476
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:488
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:535
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:562
 msgid "AdGuard (unfiltered)"
 msgstr "AdGuard (нефільтрований)"
 
@@ -118,7 +119,7 @@ msgstr "Додаткові налаштування"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:227
 msgid "Additional trigger delay in seconds before adblock processing begins."
 msgstr ""
-"Додаткова затримка спрацьовування в секундах перед початком обробки AdBlock ."
+"Додаткова затримка спрацьовування в секундах перед початком обробки adblock."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:206
 msgid "Advanced DNS Settings"
@@ -138,14 +139,14 @@ msgid ""
 "Allowlist modifications have been saved, reload adblock that changes take "
 "effect."
 msgstr ""
-"Зміни білого списку збережено, перезавантажте рекламний блок, щоб зміни "
-"набули чинності."
+"Зміни білого списку збережено, перезавантажте adblock, щоб зміни набули "
+"чинності."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:361
 msgid "Allowlist..."
-msgstr "Білий список..."
+msgstr "Білий список…"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:434
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:450
 msgid ""
 "Allows temporary access to an unfiltered external DNS resolver, bypassing "
 "local adblock."
@@ -159,7 +160,7 @@ msgstr "Відповідь"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:300
 msgid "Backup Directory"
-msgstr "Тека для резервних копій"
+msgstr "Каталог резервних копій"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:296
 msgid "Base Directory"
@@ -174,9 +175,9 @@ msgstr "Базовий робочий каталог під час обробк�
 msgid "Blocked Domains"
 msgstr "Заблоковані домени"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:715
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:731
 msgid "Blocklist Feed"
-msgstr "Стрічка чорного списку"
+msgstr "Канал чорного списку"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:92
 msgid "Blocklist Search"
@@ -184,7 +185,7 @@ msgstr "Пошук у списку заблокованих"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:460
 msgid "Blocklist Search..."
-msgstr "Пошук у списку заблокованих..."
+msgstr "Пошук у списку заблокованих…"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/blocklist.js:59
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:41
@@ -192,12 +193,12 @@ msgid ""
 "Blocklist modifications have been saved, reload adblock that changes take "
 "effect."
 msgstr ""
-"Зміни чорного списку збережено, перезавантажте рекламний блок, щоб зміни "
-"набули чинності."
+"Зміни чорного списку збережено, перезавантажте adblock, щоб зміни набули "
+"чинності."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:370
 msgid "Blocklist..."
-msgstr "Чорний список..."
+msgstr "Чорний список…"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:274
 msgid "CPU Cores"
@@ -211,15 +212,15 @@ msgstr "Ядра ЦП"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:745
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:754
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:763
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:772
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:781
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:761
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:770
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:779
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:788
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:797
 msgid "Categories"
 msgstr "Категорії"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:710
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:726
 msgid "Changes on this tab needs an adblock service reload to take effect."
 msgstr ""
 "Щоб зміни на цій вкладці набули чинності, потрібно перезавантажити службу "
@@ -227,10 +228,10 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:216
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:268
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:320
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:583
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:632
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:672
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:336
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:599
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:648
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:688
 msgid "Changes on this tab needs an adblock service restart to take effect."
 msgstr ""
 "Щоб зміни на цій вкладці набули чинності, потрібно перезапустити службу "
@@ -248,26 +249,26 @@ msgstr "Клієнт"
 msgid "Clients"
 msgstr "Клієнти"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:403
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:424
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:515
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:542
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:419
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:440
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:531
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:558
 msgid "Cloudflare (malware)"
 msgstr "Cloudflare (шкідливе програмне забезпечення)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:404
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:425
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:516
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:543
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:420
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:441
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:532
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:559
 msgid "Cloudflare (malware+family)"
-msgstr "Cloudflare (сімейство+шкідливих програм)"
+msgstr "Cloudflare (шкідливе програмне забезпечення+сімейний)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:348
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:360
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:462
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:474
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:521
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:548
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:364
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:376
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:478
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:490
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:537
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:564
 msgid "Cloudflare (unfiltered)"
 msgstr "Cloudflare (нефільтрований)"
 
@@ -280,33 +281,33 @@ msgstr ""
 "зловмисним вмістом за допомогою DNS. Для отримання додаткової інформації "
 "перегляньте %s."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:402
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:423
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:514
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:541
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:418
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:439
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:530
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:557
 msgid "Control D (adblock)"
 msgstr "Control D (блокувальник реклами)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:401
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:422
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:513
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:540
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:417
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:438
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:529
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:556
 msgid "Control D (family)"
-msgstr "Control D (сім'я)"
+msgstr "Control D (сімейний)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:400
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:421
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:512
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:539
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:416
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:437
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:528
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:555
 msgid "Control D (security)"
 msgstr "Control D (безпека)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:347
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:359
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:461
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:473
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:520
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:547
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:363
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:375
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:477
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:489
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:536
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:563
 msgid "Control D (unfiltered)"
 msgstr "Control D (нефільтрований)"
 
@@ -314,26 +315,26 @@ msgstr "Control D (нефільтрований)"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:306
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:308
 msgid "Count"
-msgstr "Граф"
+msgstr "Кількість"
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:43
 msgid "Custom Feed Editor"
 msgstr "Користувацький редактор каналів"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:172
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:586
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:602
 msgid "DNS Backend"
 msgstr "DNS-бекенд"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:616
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:632
 msgid "DNS Directory"
-msgstr "Тека DNS"
+msgstr "Каталог DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:596
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:612
 msgid "DNS Instance"
 msgstr "Екземпляр DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:612
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:628
 msgid "DNS Lookup Domain"
 msgstr "Домен пошуку DNS"
 
@@ -342,44 +343,44 @@ msgstr "Домен пошуку DNS"
 msgid "DNS Report"
 msgstr "Звіт DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:619
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:635
 msgid "DNS Restart Timeout"
-msgstr "Час очікування перезапуску DNS вичерпано"
+msgstr "Час очікування перезапуску DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:391
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:412
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:503
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:530
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:407
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:428
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:519
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:546
 msgid "DNS4EU (protective)"
 msgstr "DNS4EU (захисний)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:393
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:414
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:505
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:532
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:409
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:430
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:521
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:548
 msgid "DNS4EU (protective+adblock)"
 msgstr "DNS4EU (захисний+блокувальник реклами)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:392
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:413
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:504
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:531
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:408
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:429
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:520
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:547
 msgid "DNS4EU (protective+family)"
-msgstr "DNS4EU (захисний+сім'я)"
+msgstr "DNS4EU (захисний+сімейний)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:394
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:415
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:506
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:533
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:410
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:431
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:522
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:549
 msgid "DNS4EU (protective+family+adblock)"
-msgstr "DNS4EU (захисний+сімейний+блокувальник+реклами)"
+msgstr "DNS4EU (захисний+сімейний+блокувальник реклами)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:345
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:357
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:459
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:471
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:518
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:545
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:361
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:373
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:475
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:487
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:534
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:561
 msgid "DNS4EU (unfiltered)"
 msgstr "DNS4EU (нефільтрований)"
 
@@ -391,7 +392,7 @@ msgstr "Дата"
 msgid "Description"
 msgstr "Опис"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:373
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:389
 msgid ""
 "Devices with listed MAC addresses will always use the configured filtered "
 "DNS server."
@@ -399,7 +400,7 @@ msgstr ""
 "Пристрої з указаними MAC-адресами завжди використовуватимуть налаштований "
 "фільтрований DNS-сервер."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:327
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:343
 msgid ""
 "Devices with listed MAC addresses will always use the configured unfiltered "
 "DNS server."
@@ -407,12 +408,12 @@ msgstr ""
 "Пристрої з переліченими MAC-адресами завжди використовуватимуть налаштований "
 "нефільтрований DNS-сервер."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:350
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:362
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:464
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:476
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:523
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:550
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:366
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:378
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:480
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:492
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:539
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:566
 msgid "Digitale Gesellschaft (unfiltered)"
 msgstr "Digitale Gesellschaft (нефільтрований)"
 
@@ -420,7 +421,7 @@ msgstr "Digitale Gesellschaft (нефільтрований)"
 msgid "Domain"
 msgstr "Домен"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:612
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:628
 msgid "Domain to check for a successful DNS backend restart."
 msgstr "Домен для перевірки успішного перезапуску серверної частини DNS."
 
@@ -428,7 +429,7 @@ msgstr "Домен для перевірки успішного перезапу
 msgid "Domains"
 msgstr "Домени"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:311
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:327
 msgid "Don't check SSL server certificates during download."
 msgstr "Не перевіряти SSL-сертифікати сервера під час завантаження."
 
@@ -436,9 +437,17 @@ msgstr "Не перевіряти SSL-сертифікати сервера пі
 msgid "Download"
 msgstr "Завантажити"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:311
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:327
 msgid "Download Insecure"
-msgstr "Завантажувати небезпечним шляхом"
+msgstr "Небезпечне завантаження"
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:311
+msgid "Download Parameters"
+msgstr ""
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:315
+msgid "Download Retries"
+msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:304
 msgid "Download Utility"
@@ -448,21 +457,21 @@ msgstr "Утиліта для завантаження"
 msgid "E-Mail Notification"
 msgstr "Сповіщення електронною поштою"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:683
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:699
 msgid "E-Mail Profile"
-msgstr "Поштовий профіль"
+msgstr "Профіль електронної пошти"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:258
 msgid "E-Mail Receiver Address"
-msgstr "Поштова адреса отримувача"
+msgstr "Адреса отримувача електронної пошти"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:675
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:691
 msgid "E-Mail Sender Address"
-msgstr "Поштова адреса відправника"
+msgstr "Адреса відправника електронної пошти"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:679
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:695
 msgid "E-Mail Topic"
-msgstr "Тема"
+msgstr "Тема листа"
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:27
 msgid "Edit Allowlist"
@@ -477,23 +486,23 @@ msgstr "Редагувати чорний список"
 msgid "Empty field not allowed"
 msgstr "Порожнє поле не допускається"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:609
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:625
 msgid ""
 "Empty the DNS cache before adblock processing starts to reduce the memory "
 "consumption."
 msgstr ""
 "Очистити кеш DNS, перш ніж розпочнеться обробка блокування реклами, щоб "
-"зменшити споживання пам’яті."
+"зменшити споживання памʼяті."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:497
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:513
 msgid "Enable DNS Bridge"
 msgstr "Увімкнути DNS-міст"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:370
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:386
 msgid "Enable Filtered DNS Routing"
 msgstr "Увімкнути фільтровану маршрутизацію DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:434
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:450
 msgid "Enable Remote DNS Routing"
 msgstr "Увімкнути віддалену маршрутизацію DNS"
 
@@ -501,11 +510,11 @@ msgstr "Увімкнути віддалену маршрутизацію DNS"
 msgid "Enable SafeSearch"
 msgstr "Увімкнути «Безпечний пошук»"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:324
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:340
 msgid "Enable Unfiltered DNS Routing"
 msgstr "Увімкнути нефільтровану маршрутизацію DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:663
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:679
 msgid ""
 "Enable a GeoIP map that shows the geographical location of the blocked "
 "domains."
@@ -519,13 +528,15 @@ msgstr "Увімкнути службу блокувальника реклам�
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:271
 msgid "Enable verbose debug logging in case of any processing errors."
-msgstr "Увімкнути детальний звіт на випадок будь-яких помилок обробки."
+msgstr ""
+"Увімкнути докладне журналювання налагодження на випадок будь-яких помилок "
+"обробки."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:219
 msgid "Enabled"
 msgstr "Увімкнено"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:497
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:513
 msgid ""
 "Enables a temporary DNS bridge to an external DNS resolver during local DNS "
 "restarts."
@@ -541,31 +552,31 @@ msgstr ""
 "Застосування SafeSearch для google, bing, brave, duckduckgo, yandex, youtube "
 "і pixabay."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:381
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:397
 msgid "Entire interfaces or VLANs will be routed to the filtered DNS server."
 msgstr ""
 "Цілі інтерфейси або VLAN будуть спрямовані на відфільтрований DNS-сервер."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:335
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:351
 msgid "Entire interfaces or VLANs will be routed to the unfiltered DNS server."
 msgstr ""
 "Цілі інтерфейси або VLAN будуть спрямовані на нефільтрований DNS-сервер."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:712
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:728
 msgid "External Blocklist Feeds"
 msgstr "Канали зовнішніх чорних списків"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:495
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:511
 msgid "External DNS Bridge (Zero‑Downtime during DNS Restarts)"
 msgstr "Зовнішній DNS-міст (без простоїв під час перезапусків DNS)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:368
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:384
 msgid "External Filtered DNS Policy (MAC-/Interface‑based DNS bypass)"
 msgstr ""
 "Політика зовнішнього фільтрованого DNS (обхід DNS на основі MAC-адрес/"
 "інтерфейсів)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:388
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:404
 msgid ""
 "External IPv4 DNS resolver applied to MACs and interfaces using the filtered "
 "DNS policy."
@@ -573,7 +584,7 @@ msgstr ""
 "Зовнішній DNS-резолвер IPv4, застосований до MAC-адрес та інтерфейсів за "
 "допомогою політики фільтрації DNS."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:342
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:358
 msgid ""
 "External IPv4 DNS resolver applied to MACs and interfaces using the "
 "unfiltered DNS policy."
@@ -581,7 +592,7 @@ msgstr ""
 "Зовнішній DNS-резолвер IPv4, застосований до MAC-адрес та інтерфейсів, які "
 "використовують політику DNS без фільтрації."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:456
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:472
 msgid ""
 "External IPv4 DNS resolver applied to MACs using the unfiltered remote DNS "
 "policy."
@@ -589,13 +600,13 @@ msgstr ""
 "Зовнішній DNS-резолвер IPv4 застосовано до MAC-адрес, що використовують "
 "політику нефільтрованого віддаленого DNS."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:500
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:516
 msgid "External IPv4 DNS resolver used during bridging."
 msgstr ""
 "Зовнішній DNS-резолвер IPv4, який використовується під час мостового "
-"з’єднання."
+"зʼєднання."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:409
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:425
 msgid ""
 "External IPv6 DNS resolver applied to MACs and interfaces using the filtered "
 "DNS policy."
@@ -603,7 +614,7 @@ msgstr ""
 "Зовнішній DNS-резолвер IPv6, застосований до MAC-адрес та інтерфейсів за "
 "допомогою політики фільтрації DNS."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:354
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:370
 msgid ""
 "External IPv6 DNS resolver applied to MACs and interfaces using the "
 "unfiltered DNS policy."
@@ -611,7 +622,7 @@ msgstr ""
 "Зовнішній DNS-резолвер IPv6 застосовано до MAC-адрес та інтерфейсів, що "
 "використовують політику DNS без фільтрації."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:468
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:484
 msgid ""
 "External IPv6 DNS resolver applied to MACs using the unfiltered remote DNS "
 "policy."
@@ -619,19 +630,19 @@ msgstr ""
 "Зовнішній DNS-резолвер IPv6 застосовано до MAC-адрес, які використовують "
 "політику віддаленого DNS без фільтрації."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:527
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:543
 msgid "External IPv6 DNS resolver used during bridging."
 msgstr ""
 "Зовнішній DNS-резолвер IPv6, який використовується під час мостового "
-"з’єднання."
+"зʼєднання."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:432
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:448
 msgid "External Remote DNS Policy (temporary MAC‑based remote DNS bypass)"
 msgstr ""
 "Зовнішня політика віддаленого DNS (тимчасовий обхід віддаленого DNS на "
 "основі MAC-адреси)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:322
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:338
 msgid "External Unfiltered DNS Policy (MAC-/Interface‑based DNS bypass)"
 msgstr ""
 "Зовнішня політика нефільтрованого DNS (обхід DNS на основі MAC-адреси/"
@@ -639,15 +650,15 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:233
 msgid "Extra Extra Large"
-msgstr "Екстра Екстра Великий"
+msgstr "Найбільший"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:232
 msgid "Extra Large"
-msgstr "Екстра Великий"
+msgstr "Дуже великий"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:232
 msgid "Failed to generate adblock report!"
-msgstr "Не вдалося створити звіт AdBlock!"
+msgstr "Не вдалося створити звіт adblock!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:196
 msgid "Feed Name"
@@ -655,7 +666,7 @@ msgstr "Назва каналу"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:209
 msgid "Feed Selection"
-msgstr "Вибір корму"
+msgstr "Вибір каналу"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:278
 msgid "Fill"
@@ -663,37 +674,37 @@ msgstr "Заповнити"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:196
 msgid "Filter criteria like date, domain or client (optional)"
-msgstr "Критерії фільтра, як дата, домен або клієнт (необов'язково)"
+msgstr "Критерії фільтра, наприклад дата, домен або клієнт (необовʼязково)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:561
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:577
 msgid "Firewall LAN Devices/VLANs that should be forced locally."
 msgstr ""
-"Пристрої/VLAN локальної мережі брандмауера, які слід примусово активувати "
+"Пристрої/VLAN локальної мережі брандмауера, які слід примусово спрямовувати "
 "локально."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:205
 msgid "Firewall Settings"
 msgstr "Налаштування брандмауера"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:568
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:584
 msgid "Firewall ports that should be forced locally."
-msgstr "Порти брандмауера, які необхідно переспрямувати локально."
+msgstr "Порти брандмауера, які слід примусово спрямовувати локально."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:609
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:625
 msgid "Flush DNS Cache"
-msgstr "Очистка кеша DNS"
+msgstr "Очистити кеш DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:558
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:574
 msgid "Force Local DNS"
 msgstr "Примусово локальний DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:561
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:577
 msgid "Forced Devices/VLANs"
 msgstr "Примусові пристрої/VLAN"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:568
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:584
 msgid "Forced Ports"
-msgstr "Переспрямовані порти"
+msgstr "Примусові порти"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:250
 msgid ""
@@ -701,25 +712,25 @@ msgid ""
 "demand. This needs the additional 'tcpdump' or 'tcpdump-mini' package "
 "installation and a full adblock service restart to take effect."
 msgstr ""
-"Збирати мережевий трафік, пов'язаний з DNS, за допомогою tcpdump і надавати "
+"Збирати мережевий трафік, повʼязаний з DNS, за допомогою tcpdump і надавати "
 "DNS-звіт за запитом. Для цього потрібно встановити додатковий пакет "
-"'tcpdump' або 'tcpdump-mini' і повністю перезапустити службу adblock."
+"«tcpdump» або «tcpdump-mini» і повністю перезапустити службу adblock."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:203
 msgid "General Settings"
 msgstr "Загальні налаштування"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:663
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:679
 msgid "GeoIP Map"
 msgstr "Карта GeoIP"
 
 #: applications/luci-app-adblock/root/usr/share/rpcd/acl.d/luci-app-adblock.json:3
 msgid "Grant access to LuCI app adblock"
-msgstr "Надати доступ LuCI до застосунку adblock"
+msgstr "Надати доступ до застосунку LuCI adblock"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:752
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:768
 msgid "Hagezi List Selection"
-msgstr "Вибір списку Хагезі"
+msgstr "Вибір списку Hagezi"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:286
 msgid "High Priority"
@@ -729,27 +740,27 @@ msgstr "Високий пріоритет"
 msgid "Highest Priority"
 msgstr "Найвищий пріоритет"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:761
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:777
 msgid "IPFire List Selection"
 msgstr "Вибір списку IPFire"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:342
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:388
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:500
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:358
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:404
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:516
 msgid "IPv4 DNS Resolver"
-msgstr "Розпізнавач DNS IPv4"
+msgstr "DNS-резолвер IPv4"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:456
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:472
 msgid "IPv4 Remote DNS Resolver"
 msgstr "Віддалений DNS-резолвер IPv4"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:354
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:409
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:527
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:370
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:425
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:543
 msgid "IPv6 DNS Resolver"
 msgstr "DNS-резолвер IPv6"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:468
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:484
 msgid "IPv6 Remote DNS Resolver"
 msgstr "Віддалений DNS-резолвер IPv6"
 
@@ -761,8 +772,8 @@ msgstr "Інформація"
 msgid "Interface"
 msgstr "Інтерфейс"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:335
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:381
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:351
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:397
 msgid "Interface DNS Filter Targets"
 msgstr "Цілі фільтра DNS інтерфейсу"
 
@@ -774,9 +785,9 @@ msgstr "Недійсні символи"
 msgid "Invalid input values, unable to save modifications."
 msgstr "Недійсні введені значення, неможливо зберегти зміни."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:624
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:640
 msgid "Jail Mode"
-msgstr "Тюремний режим"
+msgstr "Режим ізоляції"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:231
 msgid "Large"
@@ -810,10 +821,10 @@ msgstr "Обмежити «Безпечний пошук» певними пош
 msgid ""
 "Limit the cpu cores used by adblock to save RAM, autodetected by default."
 msgstr ""
-"Обмежує кількість ядер процесора, які використовує AdBlock, щоб заощадити "
-"оперативну пам’ять; типово визначається автоматично."
+"Обмежити кількість ядер процесора, які використовує adblock, щоб заощадити "
+"оперативну памʼять; типово визначається автоматично."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:635
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:651
 msgid "List of available network devices used by tcpdump."
 msgstr "Перелік доступних мережевих пристроїв, що використовуються tcpdump."
 
@@ -821,20 +832,20 @@ msgstr "Перелік доступних мережевих пристроїв,
 msgid "List of available network interfaces to trigger the adblock start."
 msgstr "Список доступних мережевих інтерфейсів для запуску блокування реклами."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:586
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:602
 msgid "List of supported DNS backends."
 msgstr "Список підтримуваних систем DNS."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:304
 msgid "List of supported and fully pre-configured download utilities."
-msgstr ""
-"Перелік підтримуваних попередньо налаштовуваних утиліт завантаження списків."
+msgstr "Перелік підтримуваних попередньо налаштованих утиліт завантаження."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:437
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:453
 msgid "Listed MAC addresses are allowed to use the remote DNS bypass."
-msgstr "Переліченим MAC-адресам дозволено використовувати віддалений обхід DNS."
+msgstr ""
+"Переліченим MAC-адресам дозволено використовувати віддалений обхід DNS."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:556
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:572
 msgid "Local DNS Enforcement"
 msgstr "Примусове застосування локального DNS"
 
@@ -842,12 +853,12 @@ msgstr "Примусове застосування локального DNS"
 msgid "Log View"
 msgstr "Перегляд журналу"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:327
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:373
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:343
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:389
 msgid "MAC DNS Filter Targets"
 msgstr "Цілі фільтра MAC-адрес DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:437
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:453
 msgid "MAC Remote Filter Targets"
 msgstr "Цілі віддаленого MAC-фільтра"
 
@@ -865,11 +876,11 @@ msgstr "Середній"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:284
 msgid "Nice Level"
-msgstr "Гарний рівень"
+msgstr "Рівень nice"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logtemplate.js:31
 msgid "No %s related logs yet!"
-msgstr "Поки що немає %s пов’язаних журналів!"
+msgstr "Поки що немає журналів, повʼязаних з %s!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:448
 msgid "No GeoIP Map data!"
@@ -881,58 +892,70 @@ msgstr "Результатів пошуку немає!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:57
 msgid "No adblock config found!"
-msgstr "Конфігурацію AdBlock не знайдено!"
+msgstr "Конфігурацію adblock не знайдено!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:287
 msgid "Normal Priority"
 msgstr "Звичайний пріоритет"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:624
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:315
+msgid ""
+"Number of download attempts in case of an error (not supported by uclient-"
+"fetch)."
+msgstr ""
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:640
 msgid ""
 "Only domains on the allowlist are permitted, all other DNS requests are "
 "rejected."
 msgstr ""
 "Дозволено лише домени з білого списку, усі інші DNS-запити відхиляються."
 
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:311
+msgid ""
+"Override the pre-configured download options for the selected download "
+"utility. The output flag, e.g. '-o' for curl or '-O' for wget, must be the "
+"last parameter."
+msgstr ""
+
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:19
 msgid "Overview"
 msgstr "Огляд"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:616
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:632
 msgid "Overwrite the default target directory for the generated blocklist."
-msgstr ""
-"Перезаписати цільовий каталог за замовчуванням для створеного списку "
-"блокувань."
+msgstr "Перезаписати типовий цільовий каталог для створеного чорного списку."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:683
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:699
 msgid "Profile used by 'msmtp' for adblock notification E-Mails."
-msgstr "Профіль, який використовується «msmtp» для сповіщень поштою."
+msgstr ""
+"Профіль, який використовується «msmtp» для сповіщень електронною поштою."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:489
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:505
 msgid "QRCode for Remote Access"
 msgstr "QR-код для віддаленого доступу"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:405
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:426
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:517
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:544
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:421
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:442
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:533
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:560
 msgid "Quad9 (malware)"
 msgstr "Quad9 (шкідливе програмне забезпечення)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:349
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:361
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:463
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:475
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:522
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:549
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:365
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:377
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:479
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:491
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:538
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:565
 msgid "Quad9 (unfiltered)"
 msgstr "Quad9 (нефільтрований)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:258
 msgid "Receiver address for adblock notification e-mails."
-msgstr "Адреса одержувача для сповіщень електронною поштою."
+msgstr "Адреса одержувача для сповіщень електронною поштою від adblock."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:558
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:574
 msgid ""
 "Redirect all local DNS queries from specified LAN zones to the local DNS "
 "resolver, applies to UDP and TCP protocol."
@@ -950,45 +973,45 @@ msgstr "Оновити звіт DNS"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:468
 msgid "Refresh..."
-msgstr "Оновити..."
+msgstr "Оновити…"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:445
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:461
 msgid "Remote DNS Timeout"
-msgstr "Час очікування віддаленого DNS вичерпано"
+msgstr "Час очікування віддаленого DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:643
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:659
 msgid "Report Chunk Count"
 msgstr "Кількість фрагментів звіту"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:648
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:664
 msgid "Report Chunk Size"
 msgstr "Розмір фрагментів звіту"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:639
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:655
 msgid "Report Directory"
-msgstr "Тека для звітів"
+msgstr "Каталог звітів"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:635
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:651
 msgid "Report Interface"
 msgstr "Інтерфейси у звіті"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:653
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:669
 msgid "Report Ports"
 msgstr "Порти у звіті"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:643
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:659
 msgid "Report chunk count used by tcpdump."
 msgstr "Кількість фрагментів звіту, які використовує tcpdump."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:648
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:664
 msgid "Report chunk size used by tcpdump in MByte."
 msgstr "Розмір фрагментів звіту, який використовує tcpdump, у мегабайтах."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:660
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:676
 msgid "Resolve IPs"
 msgstr "Визначати IP-адреси"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:660
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:676
 msgid "Resolve reporting IP addresses by using reverse DNS (PTR) lookups."
 msgstr "Визначати IP-адреси у звітах за допомогою зворотного пошуку DNS (PTR)."
 
@@ -996,15 +1019,15 @@ msgstr "Визначати IP-адреси у звітах за допомого
 msgid "Result"
 msgstr "Результат"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:370
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:386
 msgid ""
 "Routes selected MACs or interfaces to a filtered external DNS resolver, "
 "bypassing local adblock."
 msgstr ""
-"Направляє вибрані MAC-адреси або інтерфейси до відфільтрованого зовнішнього "
+"Маршрутизує вибрані MAC-адреси або інтерфейси до фільтрованого зовнішнього "
 "DNS-сервера, минаючи локальне блокування реклами."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:324
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:340
 msgid ""
 "Routes selected MACs or interfaces to an unfiltered external DNS resolver, "
 "bypassing local adblock."
@@ -1034,11 +1057,11 @@ msgstr "Робочі інтерфейси"
 msgid "Save"
 msgstr "Зберегти"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:816
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:832
 msgid "Save & Reload"
 msgstr "Зберегти та перезавантажити"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:824
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:840
 msgid "Save & Restart"
 msgstr "Зберегти та перезапустити"
 
@@ -1056,38 +1079,35 @@ msgid ""
 "Send adblock related notification e-mails. This needs the additional 'msmtp' "
 "package installation."
 msgstr ""
-"Надсилати сповіщення електронною поштою, пов’язані з блокуванням реклами. "
+"Надсилати сповіщення електронною поштою, повʼязані з блокуванням реклами. "
 "Для цього потрібно встановити додатковий пакет «msmtp»."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:675
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:691
 msgid "Sender address for adblock notification E-Mails."
-msgstr ""
-"Адреса відправника електронної пошти для сповіщень блокувальника реклами."
+msgstr "Адреса відправника електронної пошти для сповіщень від adblock."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:596
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:612
 msgid "Set the dns backend instance used by adblock."
-msgstr ""
-"Оберіть серверний екземпляр DNS, який використовується блокувальником "
-"реклами."
+msgstr "Задати екземпляр серверної частини DNS, який використовує adblock."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:201
 msgid "Settings"
 msgstr "Налаштування"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:605
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:621
 msgid "Shift DNS Blocklist"
-msgstr "Shift Blocklist DNS"
+msgstr "Перенесення чорного списку DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:605
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:621
 msgid ""
 "Shift the final DNS blocklist to the backup directory and only set a soft "
 "link to this file in memory. As long as your backup directory resides on an "
 "external drive, enable this option to save memory."
 msgstr ""
-"Перенесіть остаточний список заблокованих DNS до каталогу резервного "
-"копіювання та встановіть лише програмне посилання на цей файл у пам’яті. "
-"Поки ваш каталог резервного копіювання знаходиться на зовнішньому диску, "
-"увімкніть цей параметр, щоб заощадити пам’ять."
+"Перенести остаточний чорний список DNS до каталогу резервних копій і "
+"встановити лише програмне посилання на цей файл у памʼяті. Поки каталог "
+"резервних копій розташований на зовнішньому диску, цей параметр варто "
+"увімкнути, щоб заощадити памʼять."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:228
 msgid "Size"
@@ -1103,17 +1123,17 @@ msgstr "Інтерфейс тригера запуску"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:160
 msgid "Status / Version"
-msgstr "Статус / Версія"
+msgstr "Стан / Версія"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:770
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:786
 msgid "StevenBlack List Selection"
-msgstr "Вибір чорного списку Стівена"
+msgstr "Вибір списку StevenBlack"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:799
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:815
 msgid "Stop"
-msgstr "Стій"
+msgstr "Зупинити"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:808
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:824
 msgid "Suspend"
 msgstr "Призупинити"
 
@@ -1125,9 +1145,9 @@ msgstr "Інформація про систему"
 msgid "TLD Compression"
 msgstr "Стиснення TLD"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:639
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:655
 msgid "Target directory for DNS related report files."
-msgstr "Цільовий каталог для файлів звітів, пов’язаних з DNS."
+msgstr "Цільовий каталог для файлів звітів, повʼязаних з DNS."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:300
 msgid "Target directory for blocklist backups."
@@ -1135,13 +1155,13 @@ msgstr "Цільовий каталог для резервного копіюв
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/allowlist.js:35
 msgid "The allowlist is too big, unable to save modifications."
-msgstr "Білий список завеликий, неможливо зберегти зміни."
+msgstr "Список дозволених завеликий, неможливо зберегти зміни."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/blocklist.js:35
 msgid "The blocklist is too big, unable to save modifications."
 msgstr "Список блокування завеликий, неможливо зберегти зміни."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:653
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:669
 msgid "The list of ports used by tcpdump."
 msgstr "Список портів, що використовуються tcpdump."
 
@@ -1159,14 +1179,14 @@ msgstr ""
 msgid "The syslog output, pre-filtered for messages related to: %s"
 msgstr ""
 "Вивід системного журналу, попередньо відфільтрований на наявність "
-"повідомлень, пов'язаних з: %s"
+"повідомлень, повʼязаних з: %s"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:232
 msgid ""
 "The top level domain compression removes thousands of needless host entries "
 "from the final DNS blocklist."
 msgstr ""
-"Стиснення домену верхнього рівня видаляє тисячі непотрібних записів хостів "
+"Стиснення домену верхнього рівня видаляє тисячі непотрібних записів вузлів "
 "із остаточного списку заблокованих DNS."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/allowlist.js:38
@@ -1175,10 +1195,10 @@ msgid ""
 "<em><b>Please note:</b></em> add only one domain per line. Comments "
 "introduced with '#' are allowed - ip addresses, wildcards and regex are not."
 msgstr ""
-"Це локальний список дозволених блоків реклами, щоб завжди дозволяти певні "
-"домени.<br /> <em><b>Зверніть увагу:</b></em> додати лише один домен на "
-"рядок. Коментарі, введені за допомогою '#', дозволені, а ip-адреси, символи "
-"узагальнення та регулярні вирази заборонені."
+"Це локальний білий список adblock — щоб завжди дозволяти певні домени.<br /> "
+"<em><b>Зверніть увагу:</b></em> додавайте лише один домен на рядок. "
+"Коментарі, введені за допомогою «#», дозволені, а IP-адреси, символи "
+"підстановки та регулярні вирази заборонені."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/blocklist.js:38
 msgid ""
@@ -1186,41 +1206,41 @@ msgid ""
 "<em><b>Please note:</b></em> add only one domain per line. Comments "
 "introduced with '#' are allowed - ip addresses, wildcards and regex are not."
 msgstr ""
-"Це локальний список блокування реклами для постійного блокування певних "
-"доменів.<br /> <em><b>Зверніть увагу:</b></em> додати лише один домен на "
-"рядок. Коментарі, введені за допомогою '#', дозволені, а ip-адреси, символи "
-"узагальнення та регулярні вирази заборонені."
+"Це локальний чорний список adblock — щоб завжди блокувати певні домени.<br /"
+"> <em><b>Зверніть увагу:</b></em> додавайте лише один домен на рядок. "
+"Коментарі, введені за допомогою «#», дозволені, а IP-адреси, символи "
+"підстановки та регулярні вирази заборонені."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:388
 msgid ""
 "This tab displays the most recently generated DNS report. Use the 'Refresh' "
 "button to update it."
 msgstr ""
-"На цій вкладці показано останній створений звіт DNS. Використовуйте кнопку «"
-"Оновити», щоб актуалізувати його."
+"На цій вкладці показано останній створений звіт DNS. Використовуйте кнопку "
+"«Оновити», щоб актуалізувати його."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:339
 msgid "Time"
 msgstr "Час"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:445
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:461
 msgid ""
 "Time limit in minutes for using the remote DNS bypass per listed MAC address."
 msgstr ""
 "Ліміт у хвилинах для використання віддаленого обходу DNS для кожної вказаної "
 "MAC-адреси."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:619
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:635
 msgid "Timeout to wait for a successful DNS backend restart."
-msgstr "Час очікування успішного перезавантаження служби DNS вийшов."
+msgstr "Час очікування успішного перезапуску служби DNS."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:414
 msgid "Top Statistics"
-msgstr "Топ Статистика"
+msgstr "Топ-статистика"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:679
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:695
 msgid "Topic for adblock notification E-Mails."
-msgstr "Тема для сповіщень поштою блокувальника реклами."
+msgstr "Тема для сповіщень електронною поштою від adblock."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:227
 msgid "Trigger Delay"
@@ -1234,21 +1254,21 @@ msgstr "Тип"
 msgid "URL"
 msgstr "URL"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:779
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:795
 msgid "UTCapitole Archive Selection"
 msgstr "Вибір архіву UTCapitole"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:107
 msgid "Unable to parse the adblock runtime information!"
-msgstr "Неможливо проаналізувати інформацію середовища виконання AdBlock!"
+msgstr "Неможливо проаналізувати інформацію про середовище виконання adblock!"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:697
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:713
 msgid "Unable to parse the custom feed file!"
-msgstr "Неможливо проаналізувати файл спеціального каналу!"
+msgstr "Неможливо проаналізувати файл користувацького каналу!"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:704
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:720
 msgid "Unable to parse the default feed file!"
-msgstr "Неможливо проаналізувати файл каналу за замовчуванням!"
+msgstr "Неможливо проаналізувати файл типового каналу!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/allowlist.js:63
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/blocklist.js:63
@@ -1257,12 +1277,12 @@ msgstr "Не вдалося зберегти зміни: %s"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:268
 msgid "Upload"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:80
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:86
 msgid "Upload of the custom feed file failed."
-msgstr "Не вдалося завантажити файл спеціального каналу."
+msgstr "Не вдалося вивантажити файл користувацького каналу."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:234
 msgid "Varying"
@@ -1270,7 +1290,7 @@ msgstr "Різні"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:271
 msgid "Verbose Debug Logging"
-msgstr "Докладний журнал відлагодження"
+msgstr "Докладне журналювання налагодження"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:182
 msgid ""
@@ -1280,43 +1300,43 @@ msgid ""
 "file, delete entries, add new ones or make a local backup. To go back to the "
 "maintainers version just clear the custom feed file."
 msgstr ""
-"За допомогою цього редактора ви можете завантажити свій локальний файл "
-"кастомної стрічки або заповнити початковий файл (копію версії, що "
-"постачається з пакетом, у масштабі 1:1). Файл знаходиться за адресою '/etc/"
-"adblock/adblock.custom.feeds'. Потім ви можете редагувати цей файл, видаляти "
-"записи, додавати нові або робити локальну резервну копію. Щоб повернутися до "
-"версії для супровідників, просто очистіть файл кастомних стрічок."
+"За допомогою цього редактора можна передати свій локальний користувацький "
+"файл каналу або заповнити початковий файл (копія 1:1 версії, що постачається "
+"з пакетом). Файл розташовано за адресою «/etc/adblock/adblock.custom.feeds». "
+"Потім можна редагувати цей файл, видаляти записи, додавати нові або "
+"створювати локальну резервну копію. Щоб повернутися до версії від "
+"супроводжувачів, просто очистіть файл користувацького каналу."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:589
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:605
 msgid "bind"
-msgstr "зв'язати"
+msgstr "bind"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:396
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:417
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:508
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:535
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:412
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:433
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:524
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:551
 msgid "dnsforge (clean)"
 msgstr "dnsforge (чистий)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:397
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:418
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:509
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:536
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:413
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:434
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:525
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:552
 msgid "dnsforge (hard)"
-msgstr "dnsforge (важко)"
+msgstr "dnsforge (жорсткий)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:395
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:416
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:507
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:534
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:411
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:432
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:523
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:550
 msgid "dnsforge (normal)"
 msgstr "dnsforge (нормальний)"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:587
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:603
 msgid "dnsmasq"
 msgstr "dnsmasq"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:591
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:607
 msgid "kresd"
 msgstr "kresd"
 
@@ -1326,23 +1346,23 @@ msgstr "макс. розмір набору результатів"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:177
 msgid "max. top statistics"
-msgstr "макс. розмір статистики"
+msgstr "макс. розмір топ-статистики"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:66
 msgid "online documentation"
 msgstr "онлайн-документація"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:592
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:608
 msgid "raw"
-msgstr "сирий"
+msgstr "raw"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:590
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:606
 msgid "smartdns"
 msgstr "smartdns"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:588
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:604
 msgid "unbound"
-msgstr "без зв'язку"
+msgstr "unbound"
 
 #~ msgid "Blocklist Query"
 #~ msgstr "Запит до списку блокування"
