@@ -1,9 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2026-06-25 19:51+0000\n"
-"Last-Translator: 加尼瑪空格把變數都破壞了！ "
-"<roc_fe@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-07-05 14:58+0000\n"
+"Last-Translator: 為什麼不加空格 <c++23@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luci/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -11,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.7.dev0\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:212
 msgid "!known (not known)"
@@ -2037,7 +2036,7 @@ msgstr "dnsmasq 預設快取 A、AAAA、CNAME 和SRV 類型的 DNS 紀錄。"
 msgid ""
 "CA certificate (PEM encoded. Use instead of system-wide store to verify the "
 "gateway certificate.)"
-msgstr ""
+msgstr "CA 憑證 (PEM 編碼，使用此憑證而非系統儲存的閘道憑證)"
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:178
 msgid "CA certificate; if empty it will be saved after the first connection."
@@ -6876,11 +6875,11 @@ msgstr "連線時間"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:26
 msgid "Link 100M On"
-msgstr "連結速率 100M"
+msgstr "連結速度 100M"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:30
 msgid "Link 10G On"
-msgstr "連結速率 10G"
+msgstr "連結速度 10G"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:25
 msgid "Link 10M On"
@@ -6888,15 +6887,15 @@ msgstr "連結速度 10M"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:27
 msgid "Link 1G On"
-msgstr "連結速率 1G"
+msgstr "連結速度 1G"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:28
 msgid "Link 2.5G On"
-msgstr "連結速率 2.5G"
+msgstr "連結速度 2.5G"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:29
 msgid "Link 5G On"
-msgstr "連結速率 5G"
+msgstr "連結速度 5G"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:24
 msgid "Link On"
@@ -6904,7 +6903,7 @@ msgstr "連結開啟"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1742
 msgid "Link Speed"
-msgstr ""
+msgstr "連結速度"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:83
 msgctxt "nft @ll,off,len"
@@ -7465,7 +7464,7 @@ msgstr "匹配 DHCP 用戶端發送的使用者類別 (UC) 作為觸發器設定
 msgid ""
 "Match Vendor Class (VC) strings sent by DHCP clients as a trigger to set "
 "tags on them."
-msgstr "匹配 DHCP 用戶端發送的廠商類別 (VC) 作為觸發器設定其標籤。"
+msgstr "匹配 DHCP 用戶端發送的供應商類別 (VC) 作為觸發器設定其標籤。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:601
 msgid "Match this Tag"
@@ -7477,7 +7476,7 @@ msgstr "匹配使用者類別"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:753
 msgid "Match this Vendor Class"
-msgstr "匹配此廠商類別"
+msgstr "匹配此供應商類別"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:719
 msgid "Match this client option(+value)"
@@ -8832,7 +8831,7 @@ msgstr "此裝置可選的任意格式備註"
 
 #: protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:149
 msgid "Optional, in seconds. If set to '0', no reconnect is attempted."
-msgstr "可選，秒為單位。若設定為 \"0\" ，則不嘗試重新連線。"
+msgstr "可選，秒為單位。若設定為「0」，則不嘗試重新連線。"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:176
 msgid ""
@@ -11903,7 +11902,7 @@ msgstr "指定是否要求用戶端提供有效憑證"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:222
 msgid "Speed: %d Mbit/s, Duplex: %s"
-msgstr "速率: %d Mbit/s，雙工: %s"
+msgstr "速度: %d Mbit/s，雙工: %s"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1867
 msgid "Splitterless ADSL (G.992.2) Annex A"
@@ -12064,7 +12063,7 @@ msgstr "建議: 128"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
 msgid "Supported link speeds: %s"
-msgstr ""
+msgstr "支援的連結速度: %s"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:478
 msgid "Suppress logging"
@@ -14100,11 +14099,11 @@ msgstr "使用系統內建 CA 驗證伺服器憑證，<br />需要「ca-bundle�
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:73
 msgid "Vendor"
-msgstr "廠商"
+msgstr "供應商"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:40
 msgid "Vendor Class to send when requesting DHCP"
-msgstr "請求 DHCP 時發送的廠商類別"
+msgstr "請求 DHCP 時發送的供應商類別"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:328
 msgid "Verdict map: <var>%h</var> is"
