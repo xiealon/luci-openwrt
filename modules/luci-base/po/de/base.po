@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-26 17:57+0200\n"
-"PO-Revision-Date: 2026-07-24 15:14+0000\n"
+"PO-Revision-Date: 2026-08-17 17:58+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/luci/de/>"
 "\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.dev0\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:212
 msgid "!known (not known)"
@@ -843,7 +843,7 @@ msgstr "ANSI T1.413"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
 msgid "AP Isolation"
-msgstr ""
+msgstr "AP-Isolierung"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
@@ -1314,7 +1314,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch-vlan.js:828
 msgid "Affected ports:"
-msgstr ""
+msgstr "Betroffene Ports:"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:76
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:76
@@ -1449,7 +1449,7 @@ msgstr "Mehrere Teilnehmer mit selbem Zertifikat erlauben"
 msgid "Allow only one session"
 msgstr "Nur eine einzige Verbindung zulassen"
 
-#: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:214
+#: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:215
 msgid "Allow rebooting the device"
 msgstr "Erlaube Neustarten des Geräts"
 
@@ -5451,14 +5451,14 @@ msgstr "Globale Netzwerkeinstellungen"
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:72
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:95
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:65
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:68
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:83
 msgid "Go to firmware upgrade..."
 msgstr "Gehe zum Firmware-Upgrade..."
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:62
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:85
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:55
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:58
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:73
 msgid "Go to password configuration..."
 msgstr "Zur Passwortkonfiguration..."
@@ -5567,7 +5567,7 @@ msgstr "Zugriff auf die Netzwerk-Diagnosetools gewähren"
 msgid "Grant access to network status information"
 msgstr "Zugriff auf die Netzwerkstatus-Informationen gewähren"
 
-#: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:227
+#: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:228
 msgid "Grant access to password policy configuration"
 msgstr ""
 
@@ -6724,11 +6724,11 @@ msgstr "Schnittstelle existiert nicht oder ist nicht verbunden."
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:532
 #: modules/luci-mod-network/root/usr/share/luci/menu.d/luci-mod-network.json:38
 msgid "Interfaces"
-msgstr "Netzwerkschnittstellen"
+msgstr "Schnittstellen"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch-vlan.js:74
 msgid "Interfaces → Devices"
-msgstr ""
+msgstr "Schnittstellen → Geräte"
 
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:20
 msgid "Internal"
@@ -8476,7 +8476,7 @@ msgid "Names not in {etc_hosts} are answered {not_found}."
 msgstr ""
 "Nicht in {etc_hosts} enthaltene Namen werden mit {not_found} beantwortet."
 
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:37
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:40
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:41
 msgid "Navigation"
 msgstr "Navigation"
@@ -8684,7 +8684,7 @@ msgstr ""
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:70
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:93
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:63
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:66
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:81
 msgid ""
 "No changes to settings will be stored and are lost after rebooting. This "
@@ -8782,7 +8782,7 @@ msgstr "Kein nftables-Regelwerk geladen."
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:59
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:82
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:52
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:55
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:70
 msgid "No password set!"
 msgstr "Kein Passwort gesetzt!"
@@ -12048,7 +12048,7 @@ msgid "Short Preamble"
 msgstr "Kurze Präambel"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/index.js:17
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/index.js:142
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/index.js:143
 msgid "Show"
 msgstr "Anzeigen"
 
@@ -12132,12 +12132,12 @@ msgstr "Überspringen"
 msgid "Skip from backup files that are equal to those in /rom"
 msgstr "Mit dem ROM-Speicher identische Dateien nicht sichern"
 
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:33
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:36
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:37
 msgid "Skip to content"
 msgstr "Zum Inhalt springen"
 
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:32
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:35
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:36
 msgid "Skip to navigation"
 msgstr "Zur Navigation springen"
@@ -12794,7 +12794,7 @@ msgstr "Größe des Systemprotokoll-Puffers"
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:69
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:92
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:62
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:65
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:80
 msgid "System running in recovery (initramfs) mode."
 msgstr "System läuft im Wiederherstellungsmodus (initramfs-Modus)."
@@ -13640,7 +13640,7 @@ msgstr "Es gibt keine anzuwendenden Änderungen"
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:60
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:83
-#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:53
+#: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:56
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:71
 msgid ""
 "There is no password set on this router. Please configure a root password to "
